@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/etc/network/run'
+let g:netrw_dirhist_2='/home/yujie/git/sound/public/res/source'
+let g:netrw_dirhist_3='/home/yujie/git/sound/app/res/source'
+let g:netrw_dirhist_4='/home/yujie/git/sound/.git'
+let g:netrw_dirhist_5='/home/yujie/protein/bin/res'
+let g:netrw_dirhist_6='/home/yujie/git/mbi-web/mbi/v2/app'
+let g:netrw_dirhist_7='/home/yujie/git/markteria/world/PPI/src/articles'
+let g:netrw_dirhist_8='/home/yujie/git/stock/stock_simulator/res'
+let g:netrw_dirhist_9='/home/yujie/git/CQ/dev'

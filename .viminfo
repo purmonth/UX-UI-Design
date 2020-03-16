@@ -1,0 +1,284 @@
+# 本 viminfo 檔案是由 Vim 8.2 所產生.
+# 如果想要自行修改請特別小心！
+
+# Viminfo version
+|1,4
+
+# 'encoding' 在此檔建立時的值
+*encoding=utf-8
+
+
+# hlsearch on (H) or off (h):
+~H
+# Last Search Pattern:
+~MSle0~/head
+
+# 命令列 歷史記錄 (新到舊):
+:q
+|2,0,1584359711,,"q"
+:wq
+|2,0,1584358978,,"wq"
+
+# 搜尋字串 歷史記錄 (新到舊):
+?/head
+|2,1,1584000034,47,"head"
+
+# 運算式 歷史記錄 (新到舊):
+
+# 輸入行  歷史記錄 (新到舊):
+
+# Debug Line 歷史記錄 (新到舊):
+
+# 暫存器:
+
+# 檔案標記:
+'0  1  0  ~/.ssh/id_rsa.pub
+|4,48,1,0,1584359711,"~/.ssh/id_rsa.pub"
+'1  1  0  ~/.ssh/known_hosts
+|4,49,1,0,1584359146,"~/.ssh/known_hosts"
+'2  1  0  ~/README.md
+|4,50,1,0,1584358978,"~/README.md"
+'3  1  0  ~/Web-tutorial/unit/css/exercise.css
+|4,51,1,0,1584003084,"~/Web-tutorial/unit/css/exercise.css"
+'4  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,52,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+'5  4  0  ~/Web-tutorial/unit/css/index.html
+|4,53,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+'6  1  0  ~/Web-tutorial/unit/css/index.html
+|4,54,1,0,1583999351,"~/Web-tutorial/unit/css/index.html"
+'7  1  0  ~/Web-tutorial/unit/css/index.html
+|4,55,1,0,1583999351,"~/Web-tutorial/unit/css/index.html"
+'8  1  0  ~/public_html/01_css
+|4,56,1,0,1583999001,"~/public_html/01_css"
+
+# Jumplist (由新到舊):
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1584359146,"~/.ssh/known_hosts"
+-'  1  0  ~/.ssh/known_hosts
+|4,39,1,0,1584359146,"~/.ssh/known_hosts"
+-'  1  0  ~/README.md
+|4,39,1,0,1584358978,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1584358978,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1584358978,"~/README.md"
+-'  1  0  ~/README.md
+|4,39,1,0,1584358978,"~/README.md"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.css
+|4,39,1,0,1584003084,"~/Web-tutorial/unit/css/exercise.css"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.css
+|4,39,1,0,1584003084,"~/Web-tutorial/unit/css/exercise.css"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.css
+|4,39,1,0,1584003084,"~/Web-tutorial/unit/css/exercise.css"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.css
+|4,39,1,0,1584003084,"~/Web-tutorial/unit/css/exercise.css"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.css
+|4,39,1,0,1584003084,"~/Web-tutorial/unit/css/exercise.css"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.css
+|4,39,1,0,1584003084,"~/Web-tutorial/unit/css/exercise.css"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.css
+|4,39,1,0,1584003084,"~/Web-tutorial/unit/css/exercise.css"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.css
+|4,39,1,0,1584003084,"~/Web-tutorial/unit/css/exercise.css"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,39,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  1  0  ~/Web-tutorial/unit/css/exercise.html
+|4,39,1,0,1584000034,"~/Web-tutorial/unit/css/exercise.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  4  0  ~/Web-tutorial/unit/css/index.html
+|4,39,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+-'  1  0  ~/Web-tutorial/unit/css/index.html
+|4,39,1,0,1583999720,"~/Web-tutorial/unit/css/index.html"
+
+# 檔案內 Mark 記錄 (由新到舊):
+
+> ~/.ssh/id_rsa.pub
+	*	1584359550	0
+	"	1	0
+
+> ~/.ssh/known_hosts
+	*	1584359128	0
+	"	1	0
+
+> ~/README.md
+	*	1584358975	0
+	"	1	0
+
+> ~/Web-tutorial/unit/css/exercise.css
+	*	1584000075	0
+	"	1	0
+
+> ~/Web-tutorial/unit/css/exercise.html
+	*	1584000065	0
+	"	4	17
+
+> ~/Web-tutorial/unit/css/index.html
+	*	1583999726	0
+	"	4	0
+
+> ~/public_html/01_css
+	*	1583998997	0
+	"	1	0

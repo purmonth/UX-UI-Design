@@ -1,0 +1,32 @@
+[2020-03-12 15:49:25.124] [exthost] [info] extension host started
+[2020-03-12 15:49:25.192] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-03-12 15:49:25.193] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/debug-auto-launch/dist/extension
+[2020-03-12 15:49:25.201] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-03-12 15:49:25.201] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/emmet/dist/extension
+[2020-03-12 15:49:25.230] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-03-12 15:49:25.230] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/git/dist/main
+[2020-03-12 15:49:25.283] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-03-12 15:49:25.283] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/merge-conflict/dist/extension
+[2020-03-12 15:49:25.287] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-03-12 15:49:25.287] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/search-result/dist/extension.js
+[2020-03-12 15:49:25.289] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-03-12 15:49:25.289] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/vscode-account/dist/extension.js
+[2020-03-12 15:49:25.298] [exthost] [info] eager extensions activated
+[2020-03-12 15:49:29.923] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-03-12 15:49:29.923] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/html-language-features/client/dist/htmlMain
+[2020-03-12 15:57:45.624] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2020-03-12 15:57:45.624] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/css-language-features/client/dist/cssMain
+[2020-03-12 16:06:17.529] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-12 16:06:17.530] [exthost] [error] Error: Invalid arguments
+	at new m (/home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/out/vs/server/remoteExtensionHostProcess.js:390:70)
+	at new m (/home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/out/vs/server/remoteExtensionHostProcess.js:387:559)
+	at g (/home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/html-language-features/client/dist/htmlMain.js:1:199176)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/html-language-features/client/dist/htmlMain.js:1:200510
+	at C (/home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/html-language-features/client/dist/htmlMain.js:1:200696)
+[2020-03-12 16:13:18.747] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-12 16:13:18.748] [exthost] [error] Error: Invalid arguments
+	at new m (/home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/out/vs/server/remoteExtensionHostProcess.js:390:70)
+	at new m (/home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/out/vs/server/remoteExtensionHostProcess.js:387:559)
+	at g (/home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/html-language-features/client/dist/htmlMain.js:1:199176)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/html-language-features/client/dist/htmlMain.js:1:200510
+	at C (/home/uidd2020/user/purmonth/.vscode-server/bin/c47d83b293181d9be64f27ff093689e8e7aed054/extensions/html-language-features/client/dist/htmlMain.js:1:200696)
