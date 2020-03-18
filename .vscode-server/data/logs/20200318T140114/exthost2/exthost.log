@@ -1,0 +1,16 @@
+[2020-03-18 14:24:04.102] [exthost] [info] extension host started
+[2020-03-18 14:24:04.184] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-03-18 14:24:04.184] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/debug-auto-launch/dist/extension
+[2020-03-18 14:24:04.189] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-03-18 14:24:04.189] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/emmet/dist/extension
+[2020-03-18 14:24:04.215] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-03-18 14:24:04.215] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/git/dist/main
+[2020-03-18 14:24:04.264] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-03-18 14:24:04.264] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/github-authentication/dist/extension.js
+[2020-03-18 14:24:04.268] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-03-18 14:24:04.268] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/merge-conflict/dist/extension
+[2020-03-18 14:24:04.271] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-03-18 14:24:04.271] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/search-result/dist/extension.js
+[2020-03-18 14:24:04.272] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-03-18 14:24:04.273] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/vscode-account/dist/extension.js
+[2020-03-18 14:24:04.282] [exthost] [info] eager extensions activated

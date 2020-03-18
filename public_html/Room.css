@@ -1,0 +1,238 @@
+@font-face {
+    font-family: 'harmony';
+    src: url('./component/font/harmony/Harmony.otf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+     url('./component/font/harmony/Harmony.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+  }  
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    font-family: 'Cormorant Garamond', serif;
+    vertical-align:baseline;
+} 
+
+.background{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-image:url(./component/image/Background.png);
+    background-size:   cover ;
+    background-repeat: repeat;
+    background-position: top;
+    z-index: -999;
+}
+
+.white_background{
+    position: fixed;
+    top:0;
+    left: 0;
+    right: 0;
+    background-color: rgb(255,255,255,0.6);
+    background-size:100% 100% ;
+    width: 100%;
+    height: 100%;
+    min-width: 1240px;
+    z-index: -998;
+}
+.color_bar{
+    width: 40vh;
+    height: 2vh;
+}
+
+.bar_red{
+    background: -webkit-linear-gradient(left,rgb(200,89,61,0.4), rgb(226,207,202,0.4));
+}
+
+.bar_green{
+    background: -webkit-linear-gradient(left,rgb(200,89,61,0.4), rgb(95,141,142,0.4));
+}
+
+.bar_blue{
+    background: -webkit-linear-gradient(left,rgb(200,89,61,0.4), rgb(8,53,81,0.4));
+}
+
+
+.header{
+    width: 96%;
+    font-size: 4vh;
+    padding-top: 2vh;
+    height: 10vh;
+    text-align: right;
+    color: rgb(102,102,102);
+    z-index: 999;
+    display: flex;
+}
+.icon_close{
+    display: flex;
+    float: left;
+    margin: 0 auto 0 50%;
+    width: 5vh;
+    height: 5vh;
+    background-image:url(./component/image/Component_X.png);
+    background-size:   100% auto ;
+    background-repeat: no-repeat;
+}
+
+
+.header a{
+    display: flex;
+    float: right;
+    text-decoration: none;
+    color: rgb(102,102,102);
+}
+
+.content{
+    width: 100%;
+    height: 16vh;
+    font-size: 16vh;
+    font-family: 'harmony';
+    height: auto;
+    color: rgb(102,102,102);
+    text-align: center;
+}
+
+.roll{
+    display: flex;
+    width: 100%;
+    margin-top: 2vh;
+    height: 55vh;
+}
+.roll img{
+    height: 55vh;
+    width: auto;
+}
+
+.controllers{
+    width: 100%;
+    margin-top: 2vh;
+    height: 8vh;
+    display: flex;
+    text-align: center;
+}
+
+.left{
+    margin: 0 1vh 0 auto;
+    width: 8vh;
+    height: 8vh;
+    background-image: url('./component/image/Component_left.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.right{
+    margin: 0 auto 0 1vh;
+    height: 8vh;
+    width: 8vh;
+    background-image: url('./component/image/Component_right.png');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.middle_ball_border{
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 70vh;
+    width: 70vh;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(255,255,255,0.4);
+}
+
+.middle_ball{
+    margin:2.5vh auto 0 auto;
+    height: 65vh;
+    width: 65vh;
+    border-radius: 50%;
+    display: flex;
+    text-align: center;
+}
+
+.middle_ball_home{
+    background-color: rgb(255,255,255,0.3);
+    color:rgb(102,102,102,1);
+}
+
+.middle_ball_red{
+    background-color: rgb(220,89,61,0.3);
+    color:rgb(241,241,241,1);
+}
+
+.middle_ball_blue{
+    background: -webkit-linear-gradient(left,rgb(8,53,81,0.3) 50%, rgb(220,89,61,0.3) 50%);
+    color:rgb(241,241,241,1);
+}
+
+.middle_ball_green{
+    background: -webkit-linear-gradient(left,rgb(95,141,142,0.3) 50%, rgb(220,89,61,0.3) 50%);
+    color:rgb(241,241,241,1);
+}
+
+.middle_ball_mix{
+  border-right-color: red;
+  border-top-color: yellow;
+  border-bottom-color: red;
+  border-left-color: green;
+  border-width: 50px;
+  border-style: solid;
+  position: relative;
+  /*
+    background: -webkit-linear-gradient(left,rgb(95,141,142,0.3) 50%, rgb(220,89,61,0.3) 50%);
+    color:rgb(241,241,241,1);*/
+}
+
+
+
+.middle_ball_slogan{
+    font-size: 8vh;  
+    line-height: 65vh;
+    margin: 0 auto;
+}
+
+.three_balls{
+    width: 50%;
+    height: 35vh;
+    margin: 0 25%;
+    position:absolute;
+    display: flex;
+    text-align: center;
+    top: 75vh;
+}
+.three_balls a{
+    height: 10vh;
+    width: 10vh;
+    margin: 0 auto;
+}
+
+.ball{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.ball_opacity{
+    opacity: 0.7;
+
+}
+.red_ball{
+    background-color: rgb(229,125,108);
+}
+
+.blue_ball{
+    background-color: rgb(8,53,81);
+}
+.green_ball{
+    background-color: rgb(95,141,142);
+}
+
+.hidden{
+    visibility: hidden;
+}

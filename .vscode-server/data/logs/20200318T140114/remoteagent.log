@@ -1,0 +1,40 @@
+[2020-03-18 14:01:14.424] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-03-18 14:01:14.424] [remoteagent] [info] Extension host agent started.
+[2020-03-18 14:01:14.805] [remoteagent] [info] [127.0.0.1][32a9a595][ManagementConnection] New connection established.
+[2020-03-18 14:01:14.809] [remoteagent] [info] [127.0.0.1][a7266ec0][ExtensionHostConnection] New connection established.
+[2020-03-18 14:01:14.954] [remoteagent] [info] [127.0.0.1][a7266ec0][ExtensionHostConnection] <20205> Launched Extension Host Process.
+[2020-03-18 14:23:59.891] [remoteagent] [info] [127.0.0.1][32a9a595][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-03-18 14:24:00.945] [remoteagent] [info] [127.0.0.1][a7266ec0][ExtensionHostConnection] <20205> Extension Host Process exited with code: 0, signal: null.
+[2020-03-18 14:24:00.946] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-03-18 14:24:03.545] [remoteagent] [info] [127.0.0.1][dcddd5d0][ManagementConnection] New connection established.
+[2020-03-18 14:24:03.545] [remoteagent] [info] [127.0.0.1][d781df74][ExtensionHostConnection] New connection established.
+[2020-03-18 14:24:03.549] [remoteagent] [info] [127.0.0.1][d781df74][ExtensionHostConnection] <26586> Launched Extension Host Process.
+[2020-03-18 14:24:04.658] [remoteagent] [info] [127.0.0.1][dcddd5d0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-03-18 14:24:05.681] [remoteagent] [info] [127.0.0.1][d781df74][ExtensionHostConnection] <26586> Extension Host Process exited with code: 0, signal: null.
+[2020-03-18 14:24:05.681] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-03-18 14:24:05.681] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-03-18 14:25:06.488] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-03-18 14:25:06.488] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-03-18 14:25:06.607] [remoteagent] [info] [127.0.0.1][a9633999][ManagementConnection] New connection established.
+[2020-03-18 14:25:06.608] [remoteagent] [info] [127.0.0.1][5e0f18f0][ExtensionHostConnection] New connection established.
+[2020-03-18 14:25:06.612] [remoteagent] [info] [127.0.0.1][5e0f18f0][ExtensionHostConnection] <26852> Launched Extension Host Process.
+[2020-03-18 14:30:06.489] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-03-18 15:21:18.650] [remoteagent] [info] [127.0.0.1][a9633999][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-03-18 15:30:14.705] [remoteagent] [info] [127.0.0.1][a9633999][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[2020-03-18 15:30:14.706] [remoteagent] [info] [127.0.0.1][7e1d0a25][ManagementConnection] New connection established.
+[2020-03-18 15:30:14.706] [remoteagent] [info] [127.0.0.1][83039fca][ExtensionHostConnection] New connection established.
+[2020-03-18 15:30:14.711] [remoteagent] [info] [127.0.0.1][83039fca][ExtensionHostConnection] <907> Launched Extension Host Process.
+[2020-03-18 15:35:14.708] [remoteagent] [info] [127.0.0.1][a9633999][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[2020-03-18 15:35:15.735] [remoteagent] [info] [127.0.0.1][5e0f18f0][ExtensionHostConnection] <26852> Extension Host Process exited with code: 0, signal: null.
+[2020-03-18 18:23:02.751] [remoteagent] [info] [127.0.0.1][7e1d0a25][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-03-18 18:23:03.801] [remoteagent] [info] [127.0.0.1][83039fca][ExtensionHostConnection] <907> Extension Host Process exited with code: 0, signal: null.
+[2020-03-18 18:23:03.801] [remoteagent] [info] Last EH closed, waiting before shutting down

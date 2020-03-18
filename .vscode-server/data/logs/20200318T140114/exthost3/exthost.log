@@ -1,0 +1,280 @@
+[2020-03-18 14:25:07.109] [exthost] [info] extension host started
+[2020-03-18 14:25:07.189] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-03-18 14:25:07.190] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/debug-auto-launch/dist/extension
+[2020-03-18 14:25:07.195] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-03-18 14:25:07.195] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/emmet/dist/extension
+[2020-03-18 14:25:07.221] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-03-18 14:25:07.222] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/git/dist/main
+[2020-03-18 14:25:07.271] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-03-18 14:25:07.271] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/github-authentication/dist/extension.js
+[2020-03-18 14:25:07.275] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-03-18 14:25:07.275] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/merge-conflict/dist/extension
+[2020-03-18 14:25:07.278] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-03-18 14:25:07.278] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/search-result/dist/extension.js
+[2020-03-18 14:25:07.280] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-03-18 14:25:07.280] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/vscode-account/dist/extension.js
+[2020-03-18 14:25:07.290] [exthost] [info] eager extensions activated
+[2020-03-18 14:25:19.566] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-03-18 14:25:19.566] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain
+[2020-03-18 14:28:14.780] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-18 14:28:14.785] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:191296)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196169
+	at Object.asCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196283)
+	at o (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22392)
+	at Object.n.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22603)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:272
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:345
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:317)
+	at F.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:243)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:338
+	at V._withAdapter (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:623:832)
+	at V.$resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:316)
+	at p._doInvokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:464)
+	at p._invokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:156)
+	at p._receiveRequest (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:705:766)
+	at p._receiveOneMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:704:623)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:702:791
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:870:104
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at t.PersistentProtocol._receiveMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:195:717)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:192:897
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at p.acceptChunk (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:897)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:249
+	at Socket.t (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:197:232)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-18 14:28:14.830] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-18 14:28:14.830] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:191296)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196169
+	at Object.asCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196283)
+	at o (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22392)
+	at Object.n.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22603)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:272
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:345
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:317)
+	at F.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:243)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:338
+	at V._withAdapter (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:623:832)
+	at V.$resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:316)
+	at p._doInvokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:464)
+	at p._invokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:156)
+	at p._receiveRequest (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:705:766)
+	at p._receiveOneMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:704:623)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:702:791
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:870:104
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at t.PersistentProtocol._receiveMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:195:717)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:192:897
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at p.acceptChunk (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:897)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:249
+	at Socket.t (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:197:232)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-18 14:29:05.256] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-18 14:29:05.256] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:191296)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196169
+	at Object.asCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196283)
+	at o (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22392)
+	at Object.n.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22603)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:272
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:345
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:317)
+	at F.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:243)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:338
+	at V._withAdapter (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:623:832)
+	at V.$resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:316)
+	at p._doInvokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:464)
+	at p._invokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:156)
+	at p._receiveRequest (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:705:766)
+	at p._receiveOneMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:704:623)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:702:791
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:870:104
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at t.PersistentProtocol._receiveMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:195:717)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:192:897
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at p.acceptChunk (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:897)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:249
+	at Socket.t (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:197:232)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-18 14:29:06.271] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-18 14:29:06.272] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:191296)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196169
+	at Object.asCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196283)
+	at o (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22392)
+	at Object.n.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22603)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:272
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:345
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:317)
+	at F.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:243)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:338
+	at V._withAdapter (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:623:832)
+	at V.$resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:316)
+	at p._doInvokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:464)
+	at p._invokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:156)
+	at p._receiveRequest (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:705:766)
+	at p._receiveOneMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:704:623)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:702:791
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:870:104
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at t.PersistentProtocol._receiveMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:195:717)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:192:897
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at p.acceptChunk (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:897)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:249
+	at Socket.t (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:197:232)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-18 14:29:06.413] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-18 14:29:06.414] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:191296)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196169
+	at Object.asCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196283)
+	at o (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22392)
+	at Object.n.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22603)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:272
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:345
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:317)
+	at F.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:243)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:338
+	at V._withAdapter (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:623:832)
+	at V.$resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:316)
+	at p._doInvokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:464)
+	at p._invokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:156)
+	at p._receiveRequest (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:705:766)
+	at p._receiveOneMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:704:623)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:702:791
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:870:104
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at t.PersistentProtocol._receiveMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:195:717)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:192:897
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at p.acceptChunk (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:897)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:249
+	at Socket.t (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:197:232)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-18 14:29:06.539] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-18 14:29:06.539] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:191296)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196169
+	at Object.asCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196283)
+	at o (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22392)
+	at Object.n.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22603)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:272
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:345
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:317)
+	at F.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:243)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:338
+	at V._withAdapter (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:623:832)
+	at V.$resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:316)
+	at p._doInvokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:464)
+	at p._invokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:156)
+	at p._receiveRequest (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:705:766)
+	at p._receiveOneMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:704:623)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:702:791
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:870:104
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at t.PersistentProtocol._receiveMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:195:717)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:192:897
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at p.acceptChunk (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:897)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:249
+	at Socket.t (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:197:232)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:166:17)
+[2020-03-18 14:29:46.283] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2020-03-18 14:29:46.284] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/css-language-features/client/dist/cssMain
+[2020-03-18 14:32:06.087] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-03-18 14:32:06.087] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-03-18 14:32:06.087] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-03-18 14:32:06.087] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-03-18 14:32:06.087] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-03-18 14:32:06.087] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-03-18 14:32:06.087] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-03-18 14:32:06.087] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-03-18 14:33:42.765] [exthost] [error] [vscode.html-language-features] provider FAILED
+[2020-03-18 14:33:42.766] [exthost] [error] Error: Receving unknown insert replace range.
+	at m (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:191296)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196169
+	at Object.asCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:196283)
+	at o (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22392)
+	at Object.n.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/extensions/html-language-features/client/dist/htmlMain.js:1:22603)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:272
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:345
+	at new Promise (<anonymous>)
+	at Object.t.asPromise (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:54:317)
+	at F.resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:614:243)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:338
+	at V._withAdapter (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:623:832)
+	at V.$resolveCompletionItem (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:632:316)
+	at p._doInvokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:464)
+	at p._invokeHandler (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:707:156)
+	at p._receiveRequest (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:705:766)
+	at p._receiveOneMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:704:623)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:702:791
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:870:104
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at v.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:191:325)
+	at t.PersistentProtocol._receiveMessage (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:195:717)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:192:897
+	at l.fire (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:48:845)
+	at p.acceptChunk (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:897)
+	at /home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:188:249
+	at Socket.t (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/vs/server/remoteExtensionHostProcess.js:197:232)
+	at Socket.emit (events.js:200:13)
+	at addChunk (_stream_readable.js:294:12)
+	at readableAddChunk (_stream_readable.js:275:11)
+	at Socket.Readable.push (_stream_readable.js:210:10)
+	at TCP.onStreamRead (internal/stream_base_commons.js:166:17)

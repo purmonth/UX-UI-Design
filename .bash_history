@@ -61,3 +61,14 @@ vim exercise.html
 vim exercise.css
 ls
 exit
+ls
+git status
+git add .
+ls
+git commir -m "Add files"
+git commit -m "Add files"
+git push
+git pull
+exiy
+exit
+ls
