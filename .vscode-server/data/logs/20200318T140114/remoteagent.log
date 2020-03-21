@@ -38,3 +38,4 @@
 [2020-03-18 18:23:02.751] [remoteagent] [info] [127.0.0.1][7e1d0a25][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
 [2020-03-18 18:23:03.801] [remoteagent] [info] [127.0.0.1][83039fca][ExtensionHostConnection] <907> Extension Host Process exited with code: 0, signal: null.
 [2020-03-18 18:23:03.801] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-03-18 18:28:03.832] [remoteagent] [info] Last EH closed, shutting down

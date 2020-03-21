@@ -9,37 +9,28 @@
 
 
 IP Address: 140.116.177.150
-Extension host agent listening on 37435
+Extension host agent listening on 38307
 
 
-[14:01:14] Extension host agent started.
-[14:01:14] [127.0.0.1][32a9a595][ManagementConnection] New connection established.
-[14:01:14] [127.0.0.1][a7266ec0][ExtensionHostConnection] New connection established.
+[15:14:30] Extension host agent started.
+[15:14:30] [127.0.0.1][28df7eb6][ManagementConnection] New connection established.
+[15:14:30] [127.0.0.1][d7438492][ExtensionHostConnection] New connection established.
 bash: cannot set terminal process group (-1): Inappropriate ioctl for device
 bash: no job control in this shell
-[14:01:14] [127.0.0.1][a7266ec0][ExtensionHostConnection] <20205> Launched Extension Host Process.
-[14:23:59] [127.0.0.1][32a9a595][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[14:24:00] [127.0.0.1][a7266ec0][ExtensionHostConnection] <20205> Extension Host Process exited with code: 0, signal: null.
+[15:14:30] [127.0.0.1][d7438492][ExtensionHostConnection] <13223> Launched Extension Host Process.
+[15:14:38] [127.0.0.1][28df7eb6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[15:14:39] [127.0.0.1][d7438492][ExtensionHostConnection] <13223> Extension Host Process exited with code: 0, signal: null.
 Last EH closed, waiting before shutting down
-[14:24:00] Last EH closed, waiting before shutting down
-[14:24:03] [127.0.0.1][dcddd5d0][ManagementConnection] New connection established.
-[14:24:03] [127.0.0.1][d781df74][ExtensionHostConnection] New connection established.
-[14:24:03] [127.0.0.1][d781df74][ExtensionHostConnection] <26586> Launched Extension Host Process.
-[14:24:04] [127.0.0.1][dcddd5d0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[14:24:05] [127.0.0.1][d781df74][ExtensionHostConnection] <26586> Extension Host Process exited with code: 0, signal: null.
-Cancelling previous shutdown timeout
-[14:24:05] Cancelling previous shutdown timeout
-Last EH closed, waiting before shutting down
-[14:24:05] Last EH closed, waiting before shutting down
+[15:14:39] Last EH closed, waiting before shutting down
 Got delay-shutdown request while in shutdown timeout, delaying
-[14:25:06] Got delay-shutdown request while in shutdown timeout, delaying
+[15:14:55] Got delay-shutdown request while in shutdown timeout, delaying
 Cancelling previous shutdown timeout
-[14:25:06] Cancelling previous shutdown timeout
-[14:25:06] [127.0.0.1][a9633999][ManagementConnection] New connection established.
-[14:25:06] [127.0.0.1][5e0f18f0][ExtensionHostConnection] New connection established.
-[14:25:06] [127.0.0.1][5e0f18f0][ExtensionHostConnection] <26852> Launched Extension Host Process.
+[15:14:55] Cancelling previous shutdown timeout
+[15:14:56] [127.0.0.1][1fbb9d92][ManagementConnection] New connection established.
+[15:14:56] [127.0.0.1][42a4057a][ExtensionHostConnection] New connection established.
+[15:14:56] [127.0.0.1][42a4057a][ExtensionHostConnection] <14298> Launched Extension Host Process.
 New EH opened, aborting shutdown
-[14:30:06] New EH opened, aborting shutdown
+[15:19:55] New EH opened, aborting shutdown
 Error: write EPIPE
     at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:83:16) {
   errno: 'EPIPE',
@@ -52,14 +43,10 @@ Error: Unexpected SIGPIPE
 Error: Unexpected SIGPIPE
     at process.<anonymous> (/home/uidd2020/user/purmonth/.vscode-server/bin/78a4c91400152c0f27ba4d363eb56d2835f9903a/out/bootstrap.js:5:80)
     at process.emit (events.js:200:13)
-[15:21:18] [127.0.0.1][a9633999][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
-[15:30:14] [127.0.0.1][a9633999][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
-[15:30:14] [127.0.0.1][7e1d0a25][ManagementConnection] New connection established.
-[15:30:14] [127.0.0.1][83039fca][ExtensionHostConnection] New connection established.
-[15:30:14] [127.0.0.1][83039fca][ExtensionHostConnection] <907> Launched Extension Host Process.
-[15:35:14] [127.0.0.1][a9633999][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
-[15:35:15] [127.0.0.1][5e0f18f0][ExtensionHostConnection] <26852> Extension Host Process exited with code: 0, signal: null.
-[18:23:02] [127.0.0.1][7e1d0a25][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[18:23:03] [127.0.0.1][83039fca][ExtensionHostConnection] <907> Extension Host Process exited with code: 0, signal: null.
+[18:11:53] [127.0.0.1][1fbb9d92][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[21:11:46] [127.0.0.1][42a4057a][ExtensionHostConnection] <14298> Extension Host Process exited with code: 0, signal: null.
 Last EH closed, waiting before shutting down
-[18:23:03] Last EH closed, waiting before shutting down
+[21:11:46] Last EH closed, waiting before shutting down
+[21:11:53] [127.0.0.1][1fbb9d92][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+Last EH closed, shutting down
+[21:16:46] Last EH closed, shutting down

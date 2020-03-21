@@ -72,3 +72,31 @@ git pull
 exiy
 exit
 ls
+git add .
+git commit -m "Complete Room.html"
+git push
+exit
+ls
+cd ..
+ls
+cd noobmaster69/
+ls
+cd ..
+cd purmonth/
+ls
+cd ..
+ls
+cd noobmaster69/
+cd git
+ls
+vim index.html 
+ls
+cd uidd2020-/
+ls
+cd ..
+ls
+cd ..
+ls
+ls -a
+cd .ssh
+exit
