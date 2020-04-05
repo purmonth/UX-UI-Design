@@ -12,3 +12,19 @@
 [2020-03-21 17:23:44.073] [remoteagent] [info] [127.0.0.1][450bb3cd][ManagementConnection] New connection established.
 [2020-03-21 17:23:44.076] [remoteagent] [info] [127.0.0.1][50e99d85][ExtensionHostConnection] New connection established.
 [2020-03-21 17:23:44.186] [remoteagent] [info] [127.0.0.1][50e99d85][ExtensionHostConnection] <27283> Launched Extension Host Process.
+[2020-03-21 23:27:41.219] [remoteagent] [info] [127.0.0.1][50e99d85][ExtensionHostConnection] The client has reconnected.
+[2020-03-21 23:27:44.991] [remoteagent] [info] [127.0.0.1][450bb3cd][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-03-21 23:27:46.037] [remoteagent] [info] [127.0.0.1][50e99d85][ExtensionHostConnection] <27283> Extension Host Process exited with code: 0, signal: null.
+[2020-03-21 23:27:46.037] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-03-21 23:27:55.938] [remoteagent] [info] Got delay-shutdown request while in shutdown timeout, delaying
+[2020-03-21 23:27:55.938] [remoteagent] [info] Cancelling previous shutdown timeout
+[2020-03-21 23:27:56.515] [remoteagent] [info] [127.0.0.1][b54fb5bd][ManagementConnection] New connection established.
+[2020-03-21 23:27:56.516] [remoteagent] [info] [127.0.0.1][f4766094][ExtensionHostConnection] New connection established.
+[2020-03-21 23:27:56.518] [remoteagent] [info] [127.0.0.1][f4766094][ExtensionHostConnection] <3952> Launched Extension Host Process.
+[2020-03-21 23:32:55.942] [remoteagent] [info] New EH opened, aborting shutdown
+[2020-03-22 00:26:51.072] [remoteagent] [info] [127.0.0.1][f4766094][ExtensionHostConnection] The client has reconnected.
+[2020-03-22 04:11:23.709] [remoteagent] [info] [127.0.0.1][b54fb5bd][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[2020-03-22 07:11:17.067] [remoteagent] [info] [127.0.0.1][f4766094][ExtensionHostConnection] <3952> Extension Host Process exited with code: 0, signal: null.
+[2020-03-22 07:11:17.067] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-03-22 07:11:23.712] [remoteagent] [info] [127.0.0.1][b54fb5bd][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[2020-03-22 07:16:17.147] [remoteagent] [info] Last EH closed, shutting down

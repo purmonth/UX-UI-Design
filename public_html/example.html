@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+</head>
+    <img id="about" src="material/style/common/About.png" height="48">
+    <div class="modal">
+        <div class="header">
+            <div id="bar" class="bg-red">
+<!--                bar-->
+            </div>
+            <div id="cross">
+                <img id="close" src="material/style/common/cross.png" height="30">
+            </div>
+            <div id="word">
+                <img id="word2" src="material/style/red/r.png" height="120"/>
+            </div>
+
+        </div>
+        <div class="content">
+            <img id="pic1" src="material/style/red/pic1.png" height="400">
+            <img id="pic2" src="material/style/red/pic2.png" height="400">
+            <img id="pic3" src="material/style/red/pic3.png" height="400">
+            <img id="pic4" src="material/style/red/pic4.png" height="400">
+
+        </div>
+        <div class="footer">
+            <img id="ltarget" src="material/style/common/left.png" height="45">
+            <img id="rtarget" src="material/style/common/right.png" height="45">
+        </div>
+    </div>
+    <div class="main">
+        <div class="wall">
+            <div class="cline">
+
+                <div class="circle origin">
+                    <p>Color your life</p>
+                </div>
+
+            </div>
+        </div>
+        <div class="wall">
+            <div class="littleo">
+                <div id="red"></div>
+                <div id="blue"></div>
+                <div id="green"></div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    $( "#ltarget" ).click(function() {
+        $(".content").removeClass("content-click");
+    });
+    $( "#rtarget" ).click(function() {
+        $(".content").addClass("content-click");
+        // alert( "Handler for .click() called." );
+    });
+
+    $( "#red,#blue,#green" ).click(function() {
+        $(".circle").addClass("run");
+        $(".cline").addClass("click");
+        $('.modal').delay(2000).show(500);
+
+    });
+    $("#red").click(function () {
+        $("#pic1").attr("src", "material/style/red/pic1.png");
+        $("#pic2").attr("src", "material/style/red/pic2.png");
+        $("#pic3").attr("src", "material/style/red/pic3.png");
+        $("#pic4").attr("src", "material/style/red/pic4.png");
+        $("#word2").attr("src", "material/style/red/r.png");
+        $(".circle").addClass("origin-red");
+    });
+    $("#blue").click(function () {
+        $("#pic1").attr("src", "material/style/red_blue/pic1.png");
+        $("#pic2").attr("src", "material/style/red_blue/pic2.png");
+        $("#pic3").attr("src", "material/style/red_blue/pic3.png");
+        $("#pic4").attr("src", "material/style/red_blue/pic4.png");
+        $("#word2").attr("src", "material/style/red_blue/rb.png");
+        $("#bar").removeClass("bg-red");
+        $("#bar").addClass("bg-blue");
+        $(".circle").removeClass("origin");
+        $(".circle").addClass("origin-blue");
+    });
+    $("#green").click(function () {
+        $("#pic1").attr("src", "material/style/red_green/pic1.png");
+        $("#pic2").attr("src", "material/style/red_green/pic2.png");
+        $("#pic3").attr("src", "material/style/red_green/pic3.png");
+        $("#pic4").attr("src", "material/style/red_green/pic4.png");
+        $("#word2").attr("src", "material/style/red_green/rg.png");
+        $("#bar").removeClass("bg-red");
+        $("#bar").addClass("bg-green");
+        $(".circle").removeClass("origin");
+        $(".circle").addClass("origin-green");
+    });
+    $( "#close" ).click(function() {
+        $('.modal').hide(500);
+        $(".cline").removeClass("click");
+        $(".circle").removeClass("run");
+        $(".circle").removeClass("origin-red");
+        $(".circle").removeClass("origin-blue");
+        $(".circle").removeClass("origin-green");
+        $(".circle").addClass("origin");
+    });
+
+</script>
+
+</body>
+</html>

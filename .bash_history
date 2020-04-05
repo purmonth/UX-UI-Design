@@ -100,3 +100,9 @@ ls
 ls -a
 cd .ssh
 exit
+git status
+git add .
+git commit -m "Add js to public"
+git push
+git pull
+git push

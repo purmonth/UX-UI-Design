@@ -8,9 +8,12 @@
     </head>
     <body>
         <div class="background">
+            <div class="white_background hidden">
+                <div class="color_bar"></div>
+            </div>
             <div class="header">
-                <a class="icon_close hidden" href="https://luffy.ee.ncku.edu.tw/~purmonth/RoomHome.html"></a>
-                <a href="https://luffy.ee.ncku.edu.tw/~purmonth/RoomHome.html">About</a>
+                <a id="icon_close" class="hidden cursor"></a>
+                <a id="about" class="cursor">About</a>
             </div>
             <div class="middle_ball_border">
                 <div class="middle_ball middle_ball_home">
@@ -20,16 +23,112 @@
                 </div>
             </div>
             <div class="three_balls">
-                <a href="https://luffy.ee.ncku.edu.tw/~purmonth/RoomRed.html">
-                <div class="ball ball_opacity red_ball"></div>
-                </a>
-                <a href="https://luffy.ee.ncku.edu.tw/~purmonth/RoomBlue.html">
-                <div class="ball ball_opacity blue_ball"></div>
-                </a>
-                <a href="https://luffy.ee.ncku.edu.tw/~purmonth/RoomGreen.html">
-                <div class="ball ball_opacity green_ball"></div>
-                </a>
+                <div class="ball cursor" id ="red_ball"></div>  
+                <div class="ball cursor" id ="blue_ball"></div>
+                <div class="ball cursor" id ="green_ball"></div>
+            </div>
+            <div class="content hidden">
+            </div>
+            <div class="roll hidden">
+                <img id="roll_img">
+            </div>
+            <div class="controllers hidden">
+                <div id="left_controll" class="cursor"></div>
+                <div id="right_controll" class="cursor"></div>
             </div>
         </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+        <script>
+
+$(document).ready(function(){
+    $("#about,#icon_close").click(()=>{
+        $("#red_ball,#blue_ball,#green_ball").removeClass("ball_opacity") 
+        $(".middle_ball").addClass("middle_ball_home fadeIn")
+        $(".middle_ball").removeClass("middle_ball_red middle_ball_blue middle_ball_green")
+        $(".white_background,.content,.controllers,.roll,#icon_close").addClass("hidden")
+        $(".color_bar").removeClass("bar_red bar_blue bar_green")
+        $(".three_balls,.middle_ball_border").removeClass("none")
+        $(".middle_ball_border").removeClass("click")
+    });
+
+    var running = false;
+
+    $("#red_ball").click(() => {
+        if(running == false){
+            running = true;
+            $("#red_ball").addClass("ball_opacity")
+            $(".middle_ball_border").addClass("click")
+            $(".middle_ball").removeClass("middle_ball_home")
+            $(".middle_ball").addClass("middle_ball_red fadeIn")
+            setTimeout(function(){ 
+                $(".color_bar").addClass("bar_red fadeIn")
+                $(".white_background,.content,.controllers,.roll,#icon_close").removeClass("hidden")
+                $(".three_balls,.middle_ball_border").addClass("none")
+                $(".content").empty().append("Living&nbsp;Coral")
+                $("#roll_img").attr("src","./component/image/Roll_red.png").addClass("fadeIn")
+            running = false;
+            }, 4000);
+        }else{
+            console.log("red wait other ball")
+        }
+    });
+    
+    $("#green_ball").click(() => {
+        if(running == false){ 
+            running = true;
+            $("#green_ball").addClass("ball_opacity")
+            $(".middle_ball_border").addClass("click")
+            $(".middle_ball").removeClass("middle_ball_home")
+            $(".middle_ball").addClass("middle_ball_green fadeIn")
+                setTimeout(function(){ 
+                $(".white_background,.content,.controllers,.roll,#icon_close").removeClass("hidden")
+                $(".color_bar").addClass("bar_green fadeIn")
+                $(".three_balls,.middle_ball_border").addClass("none")
+                $(".content").empty().append("Living&nbsp;Coral&nbsp;x&nbsp;Greenery")
+                $("#roll_img").attr("src","./component/image/Roll_green&red.png").addClass("fadeIn")
+            running = false;
+            }, 4000); 
+        }else{
+            console.log("green wait other ball")
+        }
+    });
+
+    $('#blue_ball').click(() => {
+        if(running == false){
+            running = true;
+            $("#blue_ball").addClass("ball_opacity") 
+            $(".middle_ball_border").addClass("click")
+            $(".middle_ball").removeClass("middle_ball_home")
+            $(".middle_ball").addClass("middle_ball_blue fadeIn")
+            setTimeout(function(){ 
+                $(".white_background,.content,.controllers,.roll,#icon_close").removeClass("hidden")
+                $(".color_bar").addClass("bar_blue fadeIn")
+                $(".three_balls,.middle_ball_border").addClass("none")
+                $(".content").empty().append("Living&nbsp;Coral&nbsp;x&nbsp;Classic&nbsp;Blue")
+                $("#roll_img").attr("src","./component/image/Roll_blue&red.png").addClass("fadeIn")
+            running = false;
+            }, 4000); 
+        }else{
+            console.log("blue wait other ball")
+        }
+    });
+
+
+    
+    $("#left_controll").click(() => {
+        $("#roll_img").removeClass("roll_img-click");
+    });
+    $("#right_controll").click(() => {
+        $("#roll_img").addClass("roll_img-click");
+    });
+});
+
+
+
+
+        </script>
     </body>
 </html>
