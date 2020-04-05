@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'harmony';
     src: url('./component/font/harmony/Harmony.otf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
@@ -68,7 +69,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     z-index: 999;
     display: flex;
 }
-.icon_close{
+#icon_close{
     display: flex;
     float: left;
     margin: 0 auto 0 50%;
@@ -80,7 +81,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 
-.header a{
+#about{
     display: flex;
     float: right;
     text-decoration: none;
@@ -103,10 +104,28 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     margin-top: 2vh;
     height: 55vh;
 }
-.roll img{
+
+#roll_img{
     height: 55vh;
     width: auto;
+    position: absolute;
+    flex-wrap: nowrap;
+    left:0;
+    transition-duration: 3000ms;
 }
+
+#roll_img:hover{
+    left: 100%;
+    transform: translateX(-100%);
+    transition-duration: 3000ms;
+}
+
+.roll_img-click{
+    left: 100% !important ;
+    transform: translateX(-100%) !important ;
+    transition-duration: 2000ms !important ;
+}
+
 
 .controllers{
     width: 100%;
@@ -116,7 +135,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-align: center;
 }
 
-.left{
+#left_controll{
     margin: 0 1vh 0 auto;
     width: 8vh;
     height: 8vh;
@@ -126,7 +145,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background-position: center;
 }
 
-.right{
+#right_controll{
     margin: 0 auto 0 1vh;
     height: 8vh;
     width: 8vh;
@@ -136,17 +155,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     background-position: center;
 }
 
-.middle_ball_border{
-    margin: 0 auto;
-    border-radius: 50%;
-    height: 70vh;
-    width: 70vh;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgb(255,255,255,0.4);
-}
+
 
 .middle_ball{
+    transform: rotate(-45deg);
     margin:2.5vh auto 0 auto;
     height: 65vh;
     width: 65vh;
@@ -175,21 +187,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color:rgb(241,241,241,1);
 }
 
-.middle_ball_mix{
-  border-right-color: red;
-  border-top-color: yellow;
-  border-bottom-color: red;
-  border-left-color: green;
-  border-width: 50px;
-  border-style: solid;
-  position: relative;
-  /*
-    background: -webkit-linear-gradient(left,rgb(95,141,142,0.3) 50%, rgb(220,89,61,0.3) 50%);
-    color:rgb(241,241,241,1);*/
-}
-
-
-
 .middle_ball_slogan{
     font-size: 8vh;  
     line-height: 65vh;
@@ -205,34 +202,121 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     text-align: center;
     top: 75vh;
 }
-.three_balls a{
+
+
+.ball{
     height: 10vh;
     width: 10vh;
     margin: 0 auto;
-}
-
-.ball{
-    height: 100%;
-    width: 100%;
-    margin: 0 auto;
     border-radius: 50%;
+}
+.ball:hover{
+    opacity: 0.7;
+    transform: translateY(-20%);
+    transition-duration: 1000ms;
 }
 
 .ball_opacity{
     opacity: 0.7;
-
 }
-.red_ball{
+#red_ball{
     background-color: rgb(229,125,108);
 }
 
-.blue_ball{
+#blue_ball{
     background-color: rgb(8,53,81);
 }
-.green_ball{
+#green_ball{
     background-color: rgb(95,141,142);
 }
 
 .hidden{
     visibility: hidden;
+}
+
+
+.none{
+    display: none;
+}
+
+.middle_ball_border{
+    transform: rotate(45deg);
+    margin: 0 auto;
+    border-radius: 50%;
+    height: 70vh;
+    width: 70vh;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(255,255,255,0.3);
+}
+
+.ball_click{
+    transform: translateY(-20%);
+    transition-duration: 2000ms;
+}
+
+.click{
+    border-top:3px solid rgba(255,255,255,1);
+    border-right:3px solid rgba(255,255,255,1);
+    border-bottom:3px solid rgba(255,255,255,1);
+    border-left:3px solid rgba(255,255,255,1);
+    transition:transform 4s linear, border-top-color 1s linear 0.5s, border-right-color 1s linear 1s, border-bottom-color 1s linear 2s,border-left-color 1s linear 3s;
+}
+
+.cursor{
+    cursor: pointer;
+}   
+
+
+
+.fadeIn {
+    -webkit-animation: fadeIn;
+    animation: fadeIn 1s;
+    opacity: 1;
+}
+
+.fadeOut {
+    -webkit-animation: fadeOut;
+    animation: fadeOut 1s;
+    opacity: 0;
+}
+
+.fast {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
 }

@@ -9,12 +9,69 @@
 
 
 IP Address: 140.116.177.150
-Extension host agent listening on 33153
+Extension host agent listening on 39499
 
 
-[17:23:43] Extension host agent started.
-[17:23:44] [127.0.0.1][450bb3cd][ManagementConnection] New connection established.
-[17:23:44] [127.0.0.1][50e99d85][ExtensionHostConnection] New connection established.
+[09:57:51] Extension host agent started.
+[09:57:51] [127.0.0.1][08beda1b][ExtensionHostConnection] New connection established.
+[09:57:51] [127.0.0.1][1e098dc5][ManagementConnection] New connection established.
 bash: cannot set terminal process group (-1): Inappropriate ioctl for device
 bash: no job control in this shell
-[17:23:44] [127.0.0.1][50e99d85][ExtensionHostConnection] <27283> Launched Extension Host Process.
+[09:57:51] [127.0.0.1][08beda1b][ExtensionHostConnection] <8667> Launched Extension Host Process.
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:83:16) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write'
+}
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/uidd2020/user/purmonth/.vscode-server/bin/fe22a9645b44368865c0ba92e2fb881ff1afce94/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/uidd2020/user/purmonth/.vscode-server/bin/fe22a9645b44368865c0ba92e2fb881ff1afce94/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+[10:26:13] [127.0.0.1][1e098dc5][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[11:49:13] [127.0.0.1][1e098dc5][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[11:49:13] [127.0.0.1][c7f7bc88][ManagementConnection] New connection established.
+[11:49:13] [127.0.0.1][fa7c07fe][ExtensionHostConnection] New connection established.
+[11:49:13] [127.0.0.1][fa7c07fe][ExtensionHostConnection] <20379> Launched Extension Host Process.
+[11:49:15] [File Watcher (chokidar)] Inotify limit reached (ENOSPC)
+[11:54:13] [127.0.0.1][1e098dc5][ManagementConnection] The reconnection short grace time of 5m has expired, so the connection will be disposed.
+[11:54:14] [127.0.0.1][08beda1b][ExtensionHostConnection] <8667> Extension Host Process exited with code: 0, signal: null.
+[15:10:38] [127.0.0.1][0bc61221][ManagementConnection] New connection established.
+[15:10:38] [127.0.0.1][4c5aa5a1][ExtensionHostConnection] New connection established.
+[15:10:38] [127.0.0.1][4c5aa5a1][ExtensionHostConnection] <7182> Launched Extension Host Process.
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:83:16) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write'
+}
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/uidd2020/user/purmonth/.vscode-server/bin/fe22a9645b44368865c0ba92e2fb881ff1afce94/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/uidd2020/user/purmonth/.vscode-server/bin/fe22a9645b44368865c0ba92e2fb881ff1afce94/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+[15:10:48] [127.0.0.1][c7f7bc88][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:83:16) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write'
+}
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/uidd2020/user/purmonth/.vscode-server/bin/fe22a9645b44368865c0ba92e2fb881ff1afce94/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/uidd2020/user/purmonth/.vscode-server/bin/fe22a9645b44368865c0ba92e2fb881ff1afce94/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+[17:25:37] [127.0.0.1][0bc61221][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[18:10:41] [127.0.0.1][fa7c07fe][ExtensionHostConnection] <20379> Extension Host Process exited with code: 0, signal: null.
+[18:10:48] [127.0.0.1][c7f7bc88][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+[20:25:32] [127.0.0.1][4c5aa5a1][ExtensionHostConnection] <7182> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[20:25:32] Last EH closed, waiting before shutting down
+[20:25:37] [127.0.0.1][0bc61221][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
+Last EH closed, shutting down
+[20:30:32] Last EH closed, shutting down
