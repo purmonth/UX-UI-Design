@@ -1,9 +1,228 @@
+@font-face {
+    font-family: 'quentin';
+    src: url('./component/font/Quentin.otf') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}  
+@font-face {
+    font-family: 'lucida';
+    src:url('./component/font/LucidaSans.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}  
+
+
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     margin:0;
     padding:0;
     border:0;
     font-size:100%;
     font:inherit;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     vertical-align:baseline;
+    overflow: hidden;
 } 
+
+.AboutPage{
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(rgb(240,240,240), rgb(202,202,202), rgb(202,202,202));
+}
+.header{
+    height: 10vh;
+    width: 100%;
+}
+.header_block{
+    width: 10vh;
+    height: 10vh;
+    text-align: center;
+    background-color: black;
+    color: rgb(255,255,255);
+    line-height: 10vh;
+    float: left;
+    font-size: 20pt;
+}
+
+.header_content{
+    margin-right:10vh;
+    height: 10vh;
+    line-height: 10vh;
+    float: right;
+}
+
+.sidebar{
+    width: 10vh;
+    line-height: 10vh;
+    position: absolute;
+    top: 25vh;
+    transform: rotate(180deg);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 14pt;
+    letter-spacing: 2pt;
+}
+
+.container{
+    text-align: center;
+    height: 90vh;
+    width: 100%;
+    display: inline-flex;
+    
+}
+
+
+.container_bg{
+    padding-top: 10vh;
+    width: 100%;
+}
+.container_title{
+    width: 45%;
+    margin: 0 27.5%;
+    padding-bottom: 5px;
+    border-bottom: solid 2pt rgb(255,255,255);
+    text-align: center;
+    font-family: "quentin";
+    font-size: 22pt;
+    color: rgb(255,255,255);
+}
+
+.container_content{
+    margin-top: 0vh;
+    text-align: center;
+    font-size: 108pt;
+    color: rgb(255,255,255,0.8);
+    letter-spacing: 10pt;
+}
+
+.container_group{
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 20vh;
+}
+
+.group{
+    display: inline-block;
+    line-height: 30vh;
+    font-size: 82pt;
+    height: 30vh;
+    width: 25vh;
+    color: rgb(77,77,77);
+}
+
+
+
+.container_introduce{
+    height: 80vh;
+    width: 100%;
+    position: absolute;
+    top: 10vh;
+    left: 10vh;
+    overflow: hidden;
+    background-color: rgb(228,228,228,0.5);
+}
+
+
+.introduce_header{
+    position: absolute;
+    left: 5vh;
+    top: 5vh;
+    text-align: left;
+    font-size: 18pt;
+    color: rgb(51,51,51);
+}
+
+.introduce_title{
+    width: 60%;
+    height: 63vh;
+    padding-top: 37vh;
+    float: left;
+    text-align: right;
+    font-size: 50pt;
+    letter-spacing: 1vh;
+    color: rgb(77,77,77);
+}
+.introduce_charc{
+    width: 40%;
+    height: 100%;
+    float: right;
+    background-size: 55% auto, 55% auto;
+    background-position: center,center;
+    background-repeat: no-repeat,no-repeat;
+}
+
+#charc1{
+    background-image: url('./component/image/AboutSelf-01.svg'),url('./component/image/AboutSelfbg-01.svg');
+}
+#charc2{
+    background-image: url('./component/image/AboutSelf-02.svg'),url('./component/image/AboutSelfbg-02.svg');
+}
+#charc3{
+    background-image: url('./component/image/AboutSelf-03.svg'),url('./component/image/AboutSelfbg-03.svg');
+}
+#charc4{
+    background-image: url('./component/image/AboutSelf-04.svg'),url('./component/image/AboutSelfbg-04.svg');
+}
+#charc5{
+    background-image: url('./component/image/AboutSelf-05.svg'),url('./component/image/AboutSelfbg-05.svg');
+}
+
+.hidden{
+    display: none;
+}
+
+
+
+.cursor{
+    cursor: pointer;
+}   
+
+\\
+
+.fadeIn {
+    -webkit-animation: fadeIn;
+    animation: fadeIn 1s;
+    opacity: 1;
+}
+
+.fadeOut {
+    -webkit-animation: fadeOut;
+    animation: fadeOut 1s;
+    opacity: 0;
+}
+
+.fast {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
