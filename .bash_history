@@ -106,3 +106,52 @@ git commit -m "Add js to public"
 git push
 git pull
 git push
+ls
+git status
+git add .
+git commit -m "change the file""
+git commit -m "change the file"
+git push
+ls -a
+cd .ssh
+ls
+cd ..
+ls
+ls -a
+cd .git
+ls
+vim config
+cd ..
+ls
+vim test.txt
+ls
+git status
+git add .
+git commit -m "test"
+git push
+cd ..
+cd purmonth/
+ls
+cd .ssh
+ls
+cat id-rsa.pub
+cat id_rsa.pub
+cd ..
+ls
+git push
+git pull
+ls
+cd public_html/
+ls
+cd FinalProject/
+ls
+exit
+git pull
+exit
+git pull
+code .
+exit
+git status
+git add .
+git commit -m "Load Jquery"
+git push
