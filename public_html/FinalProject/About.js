@@ -1,5 +1,3 @@
-console.log("test");
-
 $(document).ready(function(){
     $(".header_block").click(()=>{
         $(".group").removeClass("hidden");
