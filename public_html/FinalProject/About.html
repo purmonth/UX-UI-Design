@@ -10,9 +10,10 @@
     <div class="AboutPage">
         <div class="header">
             <div class="header_block cursor">12</div>
-            <div class="header_content">IDE X IDE X IDE</div>
+            <div class="header_content">EE X ES X IDE</div>
         </div>
         <div class="container">
+            
             <div class="container_bg">
                 <div class="container_title">National Cheng Kung University</div>
                 <div class="container_content">ABOUT US</div>
@@ -23,6 +24,8 @@
                 <div class="group cursor" id="group3">3</div>
                 <div class="group cursor" id="group4">4</div>
                 <div class="group cursor" id="group5">5</div>
+            </div>
+            <div class="container_border">       
             </div>
             <div class="container_introduce hidden">
                 <div class="introduce_header">
@@ -43,43 +46,43 @@
 <script>
     $(document).ready(function(){
     $(".header_block").click(()=>{
-        $(".group").removeClass("hidden");
+        $(".group,.container_border").removeClass("hidden");
         $(".container_introduce").addClass("hidden fadeIn");
     })
     $("#group1").click(() => {
-        $(".group").addClass("hidden");
+        $(".group,.container_border").addClass("hidden");
         $(".container_introduce").removeClass("hidden");
         $(".introduce_charc").attr('id','charc1');
         $(".introduce_header").empty().append("INDUSTRIAL DESIGN");
-        $(".introduce_title").empty().append("Ting-Yi<br>WU<br>Designer");
+        $(".introduce_title").empty().append("<br>Ting-Yi<br>Designer");
     });
     $("#group2").click(() => {
-        $(".group").addClass("hidden");
+        $(".group,.container_border").addClass("hidden");
         $(".container_introduce").removeClass("hidden");
         $(".introduce_charc").attr('id','charc2');
         $(".introduce_header").empty().append("ELECTRICAL ENGINEERING");
-        $(".introduce_title").empty().append("Hung-Yueh<br>Lin<br>Engineer");
+        $(".introduce_title").empty().append("<br>Hung-Yueh<br>Engineer");
     });
     $("#group3").click(() => {
-        $(".group").addClass("hidden");
+        $(".group,.container_border").addClass("hidden");
         $(".container_introduce").removeClass("hidden");
         $(".introduce_charc").attr('id','charc3');
         $(".introduce_header").empty().append("ENGINEERING SCIENCE");
-        $(".introduce_title").empty().append("<br>Allision<br>Engineer");
+        $(".introduce_title").empty().append("<br>Yi-Cing<br>Engineer");
     });
     $("#group4").click(() => {
-        $(".group").addClass("hidden");
+        $(".group,.container_border").addClass("hidden");
         $(".container_introduce").removeClass("hidden");
         $(".introduce_charc").attr('id','charc4');
         $(".introduce_header").empty().append("ELECTRICAL ENGINEERING");
-        $(".introduce_title").empty().append("<br>JiaWei<br>Engineer");
+        $(".introduce_title").empty().append("<br>Jia-Wei<br>Engineer");
     });
     $("#group5").click(() => {
-        $(".group").addClass("hidden");
+        $(".group,.container_border").addClass("hidden");
         $(".container_introduce").removeClass("hidden");
         $(".introduce_charc").attr('id','charc5');
         $(".introduce_header").empty().append("ELECTRICAL ENGINEERING");
-        $(".introduce_title").empty().append("<br>YuChen<br>Engineer");
+        $(".introduce_title").empty().append("<br>Yu-Chen<br>Engineer");
     });
 });
 </script>

@@ -27,6 +27,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 .header{
     height: 10vh;
     width: 100%;
+    z-index: 2;
 }
 .header_block{
     width: 10vh;
@@ -66,6 +67,18 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     
 }
 
+.container_border{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 90vh;
+    margin: 0 0;
+    background-image: url("./component/image/AboutYellowBorder.svg");
+    background-size: 110% 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
 
 .container_bg{
     padding-top: 10vh;
@@ -95,6 +108,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     position: absolute;
     text-align: center;
     bottom: 20vh;
+    z-index: 2;
 }
 
 .group{
@@ -143,7 +157,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     height: 100%;
     float: right;
     background-size: 55% auto, 55% auto;
-    background-position: center,center;
+    background-position: center -10vh ,center -10vh;
     background-repeat: no-repeat,no-repeat;
 }
 
