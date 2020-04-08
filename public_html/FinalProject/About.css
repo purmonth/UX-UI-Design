@@ -20,6 +20,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 } 
 
 .AboutPage{
+    min-width: 1024px;
     height: 100vh;
     width: 100vw;
     background: radial-gradient(rgb(240,240,240), rgb(202,202,202), rgb(202,202,202));
@@ -41,7 +42,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .header_content{
-    margin-right:10vh;
+    margin-right:6vh;
     height: 10vh;
     line-height: 10vh;
     float: right;
@@ -51,7 +52,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     width: 10vh;
     line-height: 10vh;
     position: absolute;
-    top: 25vh;
+    top: 15vh;
     transform: rotate(180deg);
     writing-mode: vertical-rl;
     text-orientation: mixed;
@@ -64,13 +65,15 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     height: 90vh;
     width: 100%;
     display: inline-flex;
-    
 }
+
+
 
 .container_border{
     position: absolute;
     width: 100%;
-    top: 0;
+    min-width: 1024px;
+    top: 5vh;
     height: 90vh;
     margin: 0 0;
     background-image: url("./component/image/AboutYellowBorder.svg");
@@ -81,9 +84,10 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 .container_bg{
-    padding-top: 10vh;
+    padding-top: 12vh;
     width: 100%;
 }
+
 .container_title{
     width: 45%;
     margin: 0 27.5%;
@@ -102,21 +106,27 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     color: rgb(255,255,255,0.8);
     letter-spacing: 10pt;
 }
-
 .container_group{
-    width: 100%;
+    min-width: 1024px;
     position: absolute;
+    bottom: 5vh;
+    height: 90vh;
+    width: 100%;
+    background-image: url("./component/image/AboutGroup.svg");
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
     text-align: center;
-    bottom: 20vh;
     z-index: 2;
 }
 
 .group{
     display: inline-block;
+    margin-top: 40vh;
     line-height: 30vh;
     font-size: 82pt;
-    height: 30vh;
-    width: 25vh;
+    height: 40vh;
+    width: 20vh;
     color: rgb(77,77,77);
 }
 
@@ -187,7 +197,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     cursor: pointer;
 }   
 
-\\
+
 
 .fadeIn {
     -webkit-animation: fadeIn;

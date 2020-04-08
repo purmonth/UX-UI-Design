@@ -19,11 +19,11 @@
                 <div class="container_content">ABOUT US</div>
             </div>
             <div class="container_group">
-                <div class="group cursor" id="group1">1</div>
-                <div class="group cursor" id="group2">2</div>
-                <div class="group cursor" id="group3">3</div>
-                <div class="group cursor" id="group4">4</div>
-                <div class="group cursor" id="group5">5</div>
+                <div class="group cursor" id="group2"></div>
+                <div class="group cursor" id="group3"></div>
+                <div class="group cursor" id="group1"></div>
+                <div class="group cursor" id="group4"></div>
+                <div class="group cursor" id="group5"></div>
             </div>
             <div class="container_border">       
             </div>
@@ -46,43 +46,48 @@
 <script>
     $(document).ready(function(){
     $(".header_block").click(()=>{
-        $(".group,.container_border").removeClass("hidden");
+        $(".group,.container_border,.container_group").removeClass("hidden");
         $(".container_introduce").addClass("hidden fadeIn");
     })
     $("#group1").click(() => {
-        $(".group,.container_border").addClass("hidden");
+        $(".group,.container_border,.container_group").addClass("hidden");
         $(".container_introduce").removeClass("hidden");
+        $(".introduce_charc").addClass("fadeIn");
         $(".introduce_charc").attr('id','charc1');
         $(".introduce_header").empty().append("INDUSTRIAL DESIGN");
-        $(".introduce_title").empty().append("<br>Ting-Yi<br>Designer");
+        $(".introduce_title").empty().append("Ting-Yi<br>Wu<br>Designer");
     });
     $("#group2").click(() => {
-        $(".group,.container_border").addClass("hidden");
+        $(".group,.container_border,.container_group").addClass("hidden");
         $(".container_introduce").removeClass("hidden");
+        $(".introduce_charc").addClass("fadeIn");
         $(".introduce_charc").attr('id','charc2');
         $(".introduce_header").empty().append("ELECTRICAL ENGINEERING");
-        $(".introduce_title").empty().append("<br>Hung-Yueh<br>Engineer");
+        $(".introduce_title").empty().append("Hung-Yueh<br>Lin<br>Engineer");
     });
     $("#group3").click(() => {
-        $(".group,.container_border").addClass("hidden");
+        $(".group,.container_border,.container_group").addClass("hidden");
         $(".container_introduce").removeClass("hidden");
+        $(".introduce_charc").addClass("fadeIn");
         $(".introduce_charc").attr('id','charc3');
         $(".introduce_header").empty().append("ENGINEERING SCIENCE");
-        $(".introduce_title").empty().append("<br>Yi-Cing<br>Engineer");
+        $(".introduce_title").empty().append("Yi-Cing<br>Kao<br>Engineer");
     });
     $("#group4").click(() => {
-        $(".group,.container_border").addClass("hidden");
+        $(".group,.container_border,.container_group").addClass("hidden");
         $(".container_introduce").removeClass("hidden");
+        $(".introduce_charc").addClass("fadeIn");
         $(".introduce_charc").attr('id','charc4');
         $(".introduce_header").empty().append("ELECTRICAL ENGINEERING");
-        $(".introduce_title").empty().append("<br>Jia-Wei<br>Engineer");
+        $(".introduce_title").empty().append("Jia-Wei<br>Jiang<br>Engineer");
     });
     $("#group5").click(() => {
-        $(".group,.container_border").addClass("hidden");
+        $(".group,.container_border,.container_group").addClass("hidden");
         $(".container_introduce").removeClass("hidden");
+        $(".introduce_charc").addClass("fadeIn");
         $(".introduce_charc").attr('id','charc5');
         $(".introduce_header").empty().append("ELECTRICAL ENGINEERING");
-        $(".introduce_title").empty().append("<br>Yu-Chen<br>Engineer");
+        $(".introduce_title").empty().append("Yu-Chen<br>Chan<br>Engineer");
     });
 });
 </script>
