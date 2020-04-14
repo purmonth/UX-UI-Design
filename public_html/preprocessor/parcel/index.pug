@@ -1,0 +1,17 @@
+doctype html
+html
+  head
+    title webpack demo
+    link(rel="stylesheet",type="text/css",href="./app.sass")
+    style(type='text/css')
+      |.firstPug  {
+      |  color: grey;
+      |  text-align: center;
+      |}
+  body
+    h1.firstPug This is my first pug!
+    h2.firstPug Hello world!
+    #container
+      - for (var i = 0; i < 3; i++)
+        button Click me
+    script(src='./app.js')

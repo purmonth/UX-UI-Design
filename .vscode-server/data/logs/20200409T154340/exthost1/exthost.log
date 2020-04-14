@@ -1,0 +1,146 @@
+[2020-04-09 15:43:44.134] [exthost] [info] extension host started
+[2020-04-09 15:43:44.325] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-04-09 15:43:44.325] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/debug-auto-launch/dist/extension
+[2020-04-09 15:43:44.330] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-04-09 15:43:44.330] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/emmet/dist/extension
+[2020-04-09 15:43:44.356] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-04-09 15:43:44.356] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/git/dist/main
+[2020-04-09 15:43:44.406] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-04-09 15:43:44.406] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/github-authentication/dist/extension.js
+[2020-04-09 15:43:44.409] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-04-09 15:43:44.409] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/merge-conflict/dist/extension
+[2020-04-09 15:43:44.413] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-04-09 15:43:44.413] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/search-result/dist/extension.js
+[2020-04-09 15:43:44.414] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-04-09 15:43:44.414] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/vscode-account/dist/extension.js
+[2020-04-09 15:43:44.425] [exthost] [info] eager extensions activated
+[2020-04-09 15:45:15.445] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:45:15.445] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:45:15.445] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:45:15.445] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:04.998] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2018' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:04.999] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2018' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:04.999] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2018' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:04.999] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2018' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:04.999] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2018' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:06.749] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/01_css' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:06.749] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/01_css' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:06.749] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/01_css' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:06.749] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/01_css' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:06.749] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/01_css' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:06.749] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/01_css' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:06.749] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/01_css' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:07.595] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/06_framework' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:07.595] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: Pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/06_framework' is in submodule 'Web-tutorial'\n","exitCode":128,"gitErrorCode":"IsInSubmodule"}
+[2020-04-09 15:46:15.275] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/03_preprocessor/app' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:15.275] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/03_preprocessor/app' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:15.275] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/03_preprocessor/app' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:15.276] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/03_preprocessor/app' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:15.276] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/03_preprocessor/app' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:15.276] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/03_preprocessor/app' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:15.276] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/03_preprocessor/app' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:24.063] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/03_preprocessor/yarn.lock' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:26.209] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/04_http/chat' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:26.209] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/04_http/chat' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:26.209] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/04_http/chat' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:26.209] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/04_http/chat' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:26.209] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/04_http/chat' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:46:26.209] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/04_http/chat' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:47:19.544] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:47:19.544] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:47:19.544] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:47:19.544] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:47:19.544] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:47:19.544] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:47:19.544] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:47:19.544] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/public_html/css/res' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:48:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/05_async/index.html' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:48:25.973] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/05_async/index.html' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:48:29.094] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/04_http/package.json' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:48:29.094] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/04_http/package.json' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:48:29.094] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/04_http/package.json' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:48:29.094] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/04_http/package.json' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 15:48:29.094] [exthost] [error] {"message":"Git error","stdout":"","stderr":"fatal: pathspec '/home/uidd2020/user/purmonth/Web-tutorial/series/uidd2020/04_http/package.json' is beyond a symbolic link\n","exitCode":128}
+[2020-04-09 16:00:08.048] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2020-04-09 16:00:08.049] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension
+[2020-04-09 16:00:45.323] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:00:45.324] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:02:32.809] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-04-09 16:02:32.809] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/extension-editing/dist/extension
+[2020-04-09 16:02:43.251] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:02:43.251] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:03:35.772] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:03:35.772] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:10:25.544] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:10:25.544] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:10:30.566] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:10:30.566] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:26:35.372] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:26:35.372] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:26:36.599] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:26:36.599] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:29:54.200] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:29:54.200] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:32:15.898] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-04-09 16:32:15.899] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/html-language-features/client/dist/htmlMain
+[2020-04-09 16:35:19.932] [exthost] [info] [vscode.typescript-language-features] UNSAVE result from 'resolveCompletionItem', extension SHOULD NOT change any of: additionalTextEdits, or command
+[2020-04-09 16:35:22.279] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:35:22.280] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:35:23.818] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:35:23.818] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:35:29.060] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:35:29.060] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:35:40.198] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:35:40.198] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:36:09.015] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:36:09.015] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:40:23.112] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:40:23.112] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:40:30.401] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:40:30.402] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:46:09.091] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:46:09.091] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 16:46:17.658] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 16:46:17.658] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 17:22:45.933] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 17:22:45.933] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)
+[2020-04-09 17:22:50.522] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-09 17:22:50.522] [exthost] [error] Error: busy
+	at o._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/extensions/typescript-language-features/dist/extension.js:1:180275)
+	at processTicksAndRejections (internal/process/task_queues.js:89:5)

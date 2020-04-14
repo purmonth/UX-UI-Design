@@ -155,3 +155,37 @@ git status
 git add .
 git commit -m "Load Jquery"
 git push
+git status
+cd public_html/
+ls
+cd ..
+ls
+git add .
+git commit -m "Check final project"
+git push
+exit
+ls
+git pull
+cd ..
+exit
+ls
+cd public_html/
+ls
+cd http
+ls
+npm init -y
+npm install -g npm
+yarn init -y
+yarn add express jquery
+ls
+yarn
+ls
+ls
+cd public_html/http
+ls
+vim package.json
+ls
+cd public_html/
+cd http/
+./ser.js 
+node ./ser.js

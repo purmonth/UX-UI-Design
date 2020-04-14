@@ -32,34 +32,46 @@
 # 暫存器:
 
 # 檔案標記:
-'0  1  3  ~/test.txt
-|4,48,1,3,1586088575,"~/test.txt"
-'1  2  0  ~/.git/config
-|4,49,2,0,1586088559,"~/.git/config"
-'2  5  0  ~/.git/MERGE_MSG
-|4,50,5,0,1584782740,"~/.git/MERGE_MSG"
-'3  1  0  /home/uidd2020/user/noobmaster69/git/index.html
-|4,51,1,0,1584545647,"/home/uidd2020/user/noobmaster69/git/index.html"
-'4  1  0  ~/.ssh/id_rsa.pub
-|4,52,1,0,1584359711,"~/.ssh/id_rsa.pub"
-'5  1  0  ~/.ssh/known_hosts
-|4,53,1,0,1584359146,"~/.ssh/known_hosts"
-'6  1  0  ~/README.md
-|4,54,1,0,1584358978,"~/README.md"
-'7  1  0  ~/Web-tutorial/unit/css/exercise.css
-|4,55,1,0,1584003084,"~/Web-tutorial/unit/css/exercise.css"
-'8  4  17  ~/Web-tutorial/unit/css/exercise.html
-|4,56,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
-'9  4  0  ~/Web-tutorial/unit/css/index.html
-|4,57,4,0,1583999739,"~/Web-tutorial/unit/css/index.html"
+'0  1  0  ~/public_html/http/package.json
+|4,48,1,0,1586428942,"~/public_html/http/package.json"
+'1  1  3  ~/test.txt
+|4,49,1,3,1586088575,"~/test.txt"
+'2  2  0  ~/.git/config
+|4,50,2,0,1586088559,"~/.git/config"
+'3  5  0  ~/.git/MERGE_MSG
+|4,51,5,0,1584782740,"~/.git/MERGE_MSG"
+'4  1  0  /home/uidd2020/user/noobmaster69/git/index.html
+|4,52,1,0,1584545647,"/home/uidd2020/user/noobmaster69/git/index.html"
+'5  1  0  ~/.ssh/id_rsa.pub
+|4,53,1,0,1584359711,"~/.ssh/id_rsa.pub"
+'6  1  0  ~/.ssh/known_hosts
+|4,54,1,0,1584359146,"~/.ssh/known_hosts"
+'7  1  0  ~/README.md
+|4,55,1,0,1584358978,"~/README.md"
+'8  1  0  ~/Web-tutorial/unit/css/exercise.css
+|4,56,1,0,1584003084,"~/Web-tutorial/unit/css/exercise.css"
+'9  4  17  ~/Web-tutorial/unit/css/exercise.html
+|4,57,4,17,1584000068,"~/Web-tutorial/unit/css/exercise.html"
 
 # Jumplist (由新到舊):
+-'  1  0  ~/public_html/http/package.json
+|4,39,1,0,1586428942,"~/public_html/http/package.json"
+-'  1  3  ~/test.txt
+|4,39,1,3,1586088575,"~/test.txt"
 -'  1  3  ~/test.txt
 |4,39,1,3,1586088575,"~/test.txt"
 -'  2  0  ~/.git/config
 |4,39,2,0,1586088559,"~/.git/config"
 -'  2  0  ~/.git/config
 |4,39,2,0,1586088559,"~/.git/config"
+-'  2  0  ~/.git/config
+|4,39,2,0,1586088559,"~/.git/config"
+-'  2  0  ~/.git/config
+|4,39,2,0,1586088559,"~/.git/config"
+-'  1  0  ~/.git/config
+|4,39,1,0,1586088547,"~/.git/config"
+-'  1  0  ~/.git/config
+|4,39,1,0,1586088547,"~/.git/config"
 -'  1  0  ~/.git/config
 |4,39,1,0,1586088547,"~/.git/config"
 -'  1  0  ~/.git/config
@@ -72,6 +84,22 @@
 |4,39,5,0,1584782740,"~/.git/MERGE_MSG"
 -'  5  0  ~/.git/MERGE_MSG
 |4,39,5,0,1584782740,"~/.git/MERGE_MSG"
+-'  5  0  ~/.git/MERGE_MSG
+|4,39,5,0,1584782740,"~/.git/MERGE_MSG"
+-'  5  0  ~/.git/MERGE_MSG
+|4,39,5,0,1584782740,"~/.git/MERGE_MSG"
+-'  5  0  ~/.git/MERGE_MSG
+|4,39,5,0,1584782740,"~/.git/MERGE_MSG"
+-'  5  0  ~/.git/MERGE_MSG
+|4,39,5,0,1584782740,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1584782721,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1584782721,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1584782721,"~/.git/MERGE_MSG"
+-'  1  0  ~/.git/MERGE_MSG
+|4,39,1,0,1584782721,"~/.git/MERGE_MSG"
 -'  1  0  ~/.git/MERGE_MSG
 |4,39,1,0,1584782721,"~/.git/MERGE_MSG"
 -'  1  0  ~/.git/MERGE_MSG
@@ -96,6 +124,54 @@
 |4,39,1,0,1584545647,"/home/uidd2020/user/noobmaster69/git/index.html"
 -'  1  0  /home/uidd2020/user/noobmaster69/git/index.html
 |4,39,1,0,1584545647,"/home/uidd2020/user/noobmaster69/git/index.html"
+-'  1  0  /home/uidd2020/user/noobmaster69/git/index.html
+|4,39,1,0,1584545647,"/home/uidd2020/user/noobmaster69/git/index.html"
+-'  1  0  /home/uidd2020/user/noobmaster69/git/index.html
+|4,39,1,0,1584545647,"/home/uidd2020/user/noobmaster69/git/index.html"
+-'  1  0  /home/uidd2020/user/noobmaster69/git/index.html
+|4,39,1,0,1584545647,"/home/uidd2020/user/noobmaster69/git/index.html"
+-'  1  0  /home/uidd2020/user/noobmaster69/git/index.html
+|4,39,1,0,1584545647,"/home/uidd2020/user/noobmaster69/git/index.html"
+-'  1  0  /home/uidd2020/user/noobmaster69/git/index.html
+|4,39,1,0,1584545647,"/home/uidd2020/user/noobmaster69/git/index.html"
+-'  1  0  /home/uidd2020/user/noobmaster69/git/index.html
+|4,39,1,0,1584545647,"/home/uidd2020/user/noobmaster69/git/index.html"
+-'  1  0  /home/uidd2020/user/noobmaster69/git/index.html
+|4,39,1,0,1584545647,"/home/uidd2020/user/noobmaster69/git/index.html"
+-'  1  0  /home/uidd2020/user/noobmaster69/git/index.html
+|4,39,1,0,1584545647,"/home/uidd2020/user/noobmaster69/git/index.html"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
+-'  1  0  ~/.ssh/id_rsa.pub
+|4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
 -'  1  0  ~/.ssh/id_rsa.pub
 |4,39,1,0,1584359711,"~/.ssh/id_rsa.pub"
 -'  1  0  ~/.ssh/id_rsa.pub
@@ -178,84 +254,12 @@
 |4,39,1,0,1584359146,"~/.ssh/known_hosts"
 -'  1  0  ~/.ssh/known_hosts
 |4,39,1,0,1584359146,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1584359146,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1584359146,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1584359146,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1584359146,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1584359146,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1584359146,"~/.ssh/known_hosts"
--'  1  0  ~/.ssh/known_hosts
-|4,39,1,0,1584359146,"~/.ssh/known_hosts"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
--'  1  0  ~/README.md
-|4,39,1,0,1584358978,"~/README.md"
 
 # 檔案內 Mark 記錄 (由新到舊):
+
+> ~/public_html/http/package.json
+	*	1586421057	0
+	"	1	0
 
 > ~/test.txt
 	*	1586088574	0

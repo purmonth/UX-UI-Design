@@ -9,18 +9,47 @@
 
 
 IP Address: 140.116.177.150
-Extension host agent listening on 42525
+Extension host agent listening on 35039
 
 
-[14:20:17] Extension host agent started.
-[14:20:18] [127.0.0.1][fc57ffa0][ManagementConnection] New connection established.
-[14:20:18] [127.0.0.1][644b1bc2][ExtensionHostConnection] New connection established.
+[15:43:40] Extension host agent started.
+[15:43:41] [127.0.0.1][7affe9ff][ManagementConnection] New connection established.
+[15:43:41] [127.0.0.1][4120fd83][ExtensionHostConnection] New connection established.
 bash: cannot set terminal process group (-1): Inappropriate ioctl for device
 bash: no job control in this shell
-[14:20:18] [127.0.0.1][644b1bc2][ExtensionHostConnection] <22212> Launched Extension Host Process.
-[14:28:22] [127.0.0.1][fc57ffa0][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
-[14:28:23] [127.0.0.1][644b1bc2][ExtensionHostConnection] <22212> Extension Host Process exited with code: 0, signal: null.
+[15:43:41] [127.0.0.1][4120fd83][ExtensionHostConnection] <30447> Launched Extension Host Process.
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:83:16) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write'
+}
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+[15:44:30] [127.0.0.1][7affe9ff][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[15:45:09] [127.0.0.1][7affe9ff][ManagementConnection] Another client has connected, will shorten the wait for reconnection 5m before disposing...
+[15:45:09] [127.0.0.1][7affe9ff][ManagementConnection] The client has reconnected.
+[15:45:09] [127.0.0.1][4120fd83][ExtensionHostConnection] The client has reconnected.
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (internal/stream_base_commons.js:83:16) {
+  errno: 'EPIPE',
+  code: 'EPIPE',
+  syscall: 'write'
+}
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+Error: Unexpected SIGPIPE
+    at process.<anonymous> (/home/uidd2020/user/purmonth/.vscode-server/bin/0ba0ca52957102ca3527cf479571617f0de6ed50/out/bootstrap.js:5:80)
+    at process.emit (events.js:200:13)
+[18:17:32] [127.0.0.1][7affe9ff][ManagementConnection] The client has disconnected, will wait for reconnection 3h before disposing...
+[21:17:23] [127.0.0.1][4120fd83][ExtensionHostConnection] <30447> Extension Host Process exited with code: 0, signal: null.
 Last EH closed, waiting before shutting down
-[14:28:23] Last EH closed, waiting before shutting down
+[21:17:23] Last EH closed, waiting before shutting down
+[21:17:32] [127.0.0.1][7affe9ff][ManagementConnection] The reconnection grace time of 3h has expired, so the connection will be disposed.
 Last EH closed, shutting down
-[14:33:23] Last EH closed, shutting down
+[21:22:24] Last EH closed, shutting down

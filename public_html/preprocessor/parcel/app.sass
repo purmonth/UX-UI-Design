@@ -1,0 +1,24 @@
+=buttonStyle($color, $radius)
+  background-color: $color
+  border-radius: $radius
+
+#container
+  display: flex
+  justify-content: space-around
+  button
+    color: white
+    padding: 15px
+    &:nth-child(1)
+      +buttonStyle(red, 40px)
+    &:nth-child(2)
+      +buttonStyle(green, 40px)
+    &:nth-child(3)
+      +buttonStyle(blue, 40px)
+    // Step2:
+    // Determinie your button color and border-radius
+    //
+      &:nth-child([which chld])
+        +buttonStyle([color], [border])
+    //
+    // hint: There three children in container and be aware of indent.
+
