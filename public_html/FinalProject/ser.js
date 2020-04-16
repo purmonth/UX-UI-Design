@@ -11,7 +11,7 @@ const port = 5527
 app.get('/step1', (req, res) => {
   // response browser
   // 回應瀏覽器
-  res.send('hello world')
+  res.send(__dirname+"/src/Login.html")
 })
 
 // start the server
@@ -19,3 +19,14 @@ app.get('/step1', (req, res) => {
 app.listen(port, () => {
   console.log(`listening on port: ${port}`)
 })
+let nRequests = 0
+app.get('/User', (req, res) => {
+  console.log(req.query)
+  res.send(req.query)
+})
+
+app.use(express.static(`${__dirname}/src`))
+
+/*app.get('/step5', (req, res) => {
+  res.send(`Hello, ${req.query.fname} ${req.query.lname}`)
+})*/

@@ -7,12 +7,13 @@ $(document).ready(function(){
     });
     $(".slider_button").click(()=>{
         event.preventDefault();
-        $("#ajax-output").empty().html($('#ajax-form input[name=email]').val()+" "+$('#ajax-form input[name=password]').val());
-        $.get("/User", {
+        //$("#ajax-output").empty().html($('#ajax-form input[name=email]').val()+" "+$('#ajax-form input[name=password]').val());
+        //console.log($('#ajax-form input[name=email]').val())
+        $.get("http://localhost:5527/User", {
             email: $('#ajax-form input[name=email]').val(),
             password: $('#ajax-form input[name=password]').val(),
           }).done(function(data){
-            $("#ajax-output").empty().html($('#ajax-form input[name=email]').val()+" "+$('#ajax-form input[name=password]').val());
+            $(".container_title").empty().html(data.password)
           });
           
           
@@ -33,4 +34,5 @@ $(document).ready(function(){
           })*/
         console.log("Sending");
     })
+    
 })
