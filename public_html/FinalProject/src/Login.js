@@ -9,11 +9,11 @@ $(document).ready(function(){
         event.preventDefault();
         //$("#ajax-output").empty().html($('#ajax-form input[name=email]').val()+" "+$('#ajax-form input[name=password]').val());
         //console.log($('#ajax-form input[name=email]').val())
-        $.get("http://localhost:5527/User", {
+        $.get("http://luffy.ee.ncku.edu.tw:5527/User", {
             email: $('#ajax-form input[name=email]').val(),
             password: $('#ajax-form input[name=password]').val(),
           }).done(function(data){
-            $(".container_title").empty().html(data.password)
+            $(".container_title").empty().html(data.email+data.password)
           });
           
           

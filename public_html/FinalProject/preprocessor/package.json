@@ -1,0 +1,20 @@
+{
+  "name": "preprocessor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "parcel-bundler": "^1.12.4",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "dependencies": {
+    "jquery": "^3.5.0"
+  }
+}

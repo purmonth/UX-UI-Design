@@ -3,7 +3,7 @@ html
   head
     title preprocessor exercise
     link(href="./app.css",rel="stylesheet",type="text/css")
-    style(type='text/css'). // Step 1: watch out the trailing dot
+    style(type='text/css').
       .firstPug  {
         color: grey;
         text-align: center;
@@ -13,5 +13,5 @@ html
     // Step 1 code goes here
     #container
       // Step 1: pug provides loop
-      - for (let i = 0; i < 3; i++)
+      - for (let i = 0; i < 5; i++)
         button Click me

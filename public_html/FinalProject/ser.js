@@ -26,6 +26,7 @@ app.get('/User', (req, res) => {
 })
 
 app.use(express.static(`${__dirname}/src`))
+app.use(express.static(`${__dirname}/preprocessor/dist`))
 
 /*app.get('/step5', (req, res) => {
   res.send(`Hello, ${req.query.fname} ${req.query.lname}`)
