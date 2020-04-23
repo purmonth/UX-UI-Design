@@ -1,0 +1,32 @@
+
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+IP Address: 140.116.177.150
+Extension host agent listening on 34647
+
+
+[23:59:52] Extension host agent started.
+[23:59:55] [127.0.0.1][50eee1fb][ManagementConnection] New connection established.
+[23:59:56] [127.0.0.1][6d1bcb42][ExtensionHostConnection] New connection established.
+bash: cannot set terminal process group (-1): Inappropriate ioctl for device
+bash: no job control in this shell
+[23:59:56] [127.0.0.1][6d1bcb42][ExtensionHostConnection] <12540> Launched Extension Host Process.
+[00:00:16] Installing extension: syler.sass-indented
+[00:00:17] Downloaded extension: syler.sass-indented /tmp/714e58ff-c737-4059-a48d-c29113f3db9b
+[00:00:17] Extracted extension to /home/uidd2020/user/purmonth/.vscode-server/extensions/.syler.sass-indented-1.8.3: syler.sass-indented
+[00:00:17] Renamed to /home/uidd2020/user/purmonth/.vscode-server/extensions/syler.sass-indented-1.8.3
+[00:00:17] Installation completed. syler.sass-indented
+[00:00:17] Extensions installed successfully: syler.sass-indented
+[01:02:12] [127.0.0.1][50eee1fb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[01:02:13] [127.0.0.1][6d1bcb42][ExtensionHostConnection] <12540> Extension Host Process exited with code: 0, signal: null.
+Last EH closed, waiting before shutting down
+[01:02:13] Last EH closed, waiting before shutting down
+Last EH closed, shutting down
+[01:07:13] Last EH closed, shutting down

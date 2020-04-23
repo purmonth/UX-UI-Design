@@ -1,0 +1,29 @@
+[2020-04-23 00:00:16.921] [exthost] [info] extension host started
+[2020-04-23 00:00:18.124] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features {"startup":false,"extensionId":{"value":"vscode.typescript-language-features","_lower":"vscode.typescript-language-features"},"activationEvent":"onLanguage:javascript"}
+[2020-04-23 00:00:18.125] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/a9f8623ec050e5f0b44cc8ce8204a1455884749f/extensions/typescript-language-features/dist/extension
+[2020-04-23 00:00:18.162] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2020-04-23 00:00:18.162] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/a9f8623ec050e5f0b44cc8ce8204a1455884749f/extensions/debug-auto-launch/dist/extension
+[2020-04-23 00:00:18.166] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":true,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"*"}
+[2020-04-23 00:00:18.166] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/a9f8623ec050e5f0b44cc8ce8204a1455884749f/extensions/emmet/dist/extension
+[2020-04-23 00:00:18.193] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.git","_lower":"vscode.git"},"activationEvent":"*"}
+[2020-04-23 00:00:18.194] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/a9f8623ec050e5f0b44cc8ce8204a1455884749f/extensions/git/dist/main
+[2020-04-23 00:00:18.250] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication {"startup":true,"extensionId":{"value":"vscode.github-authentication","_lower":"vscode.github-authentication"},"activationEvent":"*"}
+[2020-04-23 00:00:18.250] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/a9f8623ec050e5f0b44cc8ce8204a1455884749f/extensions/github-authentication/dist/extension.js
+[2020-04-23 00:00:18.255] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":true,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"*"}
+[2020-04-23 00:00:18.255] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/a9f8623ec050e5f0b44cc8ce8204a1455884749f/extensions/merge-conflict/dist/extension
+[2020-04-23 00:00:18.258] [exthost] [info] ExtensionService#_doActivateExtension vscode.search-result {"startup":true,"extensionId":{"value":"vscode.search-result","_lower":"vscode.search-result"},"activationEvent":"*"}
+[2020-04-23 00:00:18.259] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/a9f8623ec050e5f0b44cc8ce8204a1455884749f/extensions/search-result/dist/extension.js
+[2020-04-23 00:00:18.260] [exthost] [info] ExtensionService#_doActivateExtension vscode.vscode-account {"startup":true,"extensionId":{"value":"vscode.vscode-account","_lower":"vscode.vscode-account"},"activationEvent":"*"}
+[2020-04-23 00:00:18.260] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/a9f8623ec050e5f0b44cc8ce8204a1455884749f/extensions/vscode-account/dist/extension.js
+[2020-04-23 00:00:18.272] [exthost] [info] eager extensions activated
+[2020-04-23 00:00:22.083] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features {"startup":false,"extensionId":{"value":"vscode.html-language-features","_lower":"vscode.html-language-features"},"activationEvent":"onLanguage:html"}
+[2020-04-23 00:00:22.083] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/a9f8623ec050e5f0b44cc8ce8204a1455884749f/extensions/html-language-features/client/dist/htmlMain
+[2020-04-23 00:01:52.160] [exthost] [info] ExtensionService#_doActivateExtension syler.sass-indented {"startup":false,"extensionId":{"value":"syler.sass-indented","_lower":"syler.sass-indented"},"activationEvent":"onLanguage:sass"}
+[2020-04-23 00:01:52.161] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/extensions/syler.sass-indented-1.8.2/dist/extension
+[2020-04-23 00:01:56.437] [exthost] [info] ExtensionService#_doActivateExtension vscode.css-language-features {"startup":false,"extensionId":{"value":"vscode.css-language-features","_lower":"vscode.css-language-features"},"activationEvent":"onLanguage:css"}
+[2020-04-23 00:01:56.437] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/a9f8623ec050e5f0b44cc8ce8204a1455884749f/extensions/css-language-features/client/dist/cssMain
+[2020-04-23 00:15:29.699] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing {"startup":false,"extensionId":{"value":"vscode.extension-editing","_lower":"vscode.extension-editing"},"activationEvent":"onLanguage:typescript"}
+[2020-04-23 00:15:29.699] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/uidd2020/user/purmonth/.vscode-server/bin/a9f8623ec050e5f0b44cc8ce8204a1455884749f/extensions/extension-editing/dist/extension
+[2020-04-23 00:15:45.292] [exthost] [error] [vscode.typescript-language-features] provider FAILED
+[2020-04-23 00:15:45.294] [exthost] [error] Error: busy
+	at a._provideSemanticTokens (/home/uidd2020/user/purmonth/.vscode-server/bin/a9f8623ec050e5f0b44cc8ce8204a1455884749f/extensions/typescript-language-features/dist/extension.js:1:183828)

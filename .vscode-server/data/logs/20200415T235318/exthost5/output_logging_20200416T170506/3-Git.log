@@ -1,0 +1,22 @@
+Looking for git in: git
+Using git 2.25.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/uidd2020/user/purmonth
+> git status -z -u
+> git show :public_html/preprocessor/app/app.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/app.sass
+> git cat-file -s 3f679beb1387a7d1bc3f281701dbfed60ea11ecd
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git show :public_html/preprocessor/babel/es6.js
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/babel/es6.js
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/uidd2020/user/purmonth/public_html/http/ser.js
+> git cat-file -s 52371c215997677ba6e30a8c7b2a948674345303
+> git check-ignore -v -z --stdin

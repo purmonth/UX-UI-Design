@@ -1,0 +1,24 @@
+[2020-04-22 23:59:52.690] [remoteagent] [info] 
+
+*
+* Visual Studio Code Server
+*
+* Reminder: You may only use this software with Visual Studio family products,
+* as described in the license https://aka.ms/vscode-remote/license
+*
+
+
+[2020-04-22 23:59:52.690] [remoteagent] [info] Extension host agent started.
+[2020-04-22 23:59:55.734] [remoteagent] [info] [127.0.0.1][50eee1fb][ManagementConnection] New connection established.
+[2020-04-22 23:59:56.322] [remoteagent] [info] [127.0.0.1][6d1bcb42][ExtensionHostConnection] New connection established.
+[2020-04-22 23:59:56.448] [remoteagent] [info] [127.0.0.1][6d1bcb42][ExtensionHostConnection] <12540> Launched Extension Host Process.
+[2020-04-23 00:00:16.786] [remoteagent] [info] Installing extension: syler.sass-indented
+[2020-04-23 00:00:17.208] [remoteagent] [info] Downloaded extension: syler.sass-indented /tmp/714e58ff-c737-4059-a48d-c29113f3db9b
+[2020-04-23 00:00:17.251] [remoteagent] [info] Extracted extension to /home/uidd2020/user/purmonth/.vscode-server/extensions/.syler.sass-indented-1.8.3: syler.sass-indented
+[2020-04-23 00:00:17.251] [remoteagent] [info] Renamed to /home/uidd2020/user/purmonth/.vscode-server/extensions/syler.sass-indented-1.8.3
+[2020-04-23 00:00:17.252] [remoteagent] [info] Installation completed. syler.sass-indented
+[2020-04-23 00:00:17.310] [remoteagent] [info] Extensions installed successfully: syler.sass-indented
+[2020-04-23 01:02:12.697] [remoteagent] [info] [127.0.0.1][50eee1fb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[2020-04-23 01:02:13.763] [remoteagent] [info] [127.0.0.1][6d1bcb42][ExtensionHostConnection] <12540> Extension Host Process exited with code: 0, signal: null.
+[2020-04-23 01:02:13.763] [remoteagent] [info] Last EH closed, waiting before shutting down
+[2020-04-23 01:07:13.788] [remoteagent] [info] Last EH closed, shutting down

@@ -1,0 +1,35 @@
+Looking for git in: git
+Using git 2.25.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/uidd2020/user/purmonth
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git check-ignore -v -z --stdin
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :public_html/preprocessor/app/app.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/app.sass
+> git cat-file -s 3f679beb1387a7d1bc3f281701dbfed60ea11ecd
+> git check-ignore -v -z --stdin
+> git show :public_html/preprocessor/app/index.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/index.pug
+> git cat-file -s 8461b3ade181b7eac48050f8edfd326476f875b6
+> git show :public_html/preprocessor/babel/typescript.ts
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/babel/typescript.ts
+> git cat-file -s 3388ffb40db959fc6a7ab95561d09b98e9dd8622
+> git show :public_html/preprocessor/babel/es6.js
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/babel/es6.js
+> git cat-file -s 52371c215997677ba6e30a8c7b2a948674345303
+> git show :public_html/preprocessor/babel/typescript.ts
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/babel/typescript.ts
+> git cat-file -s 3388ffb40db959fc6a7ab95561d09b98e9dd8622
+> git show :public_html/preprocessor/app/app.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/app.sass
+> git cat-file -s 3f679beb1387a7d1bc3f281701dbfed60ea11ecd

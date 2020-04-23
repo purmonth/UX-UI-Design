@@ -1,0 +1,29 @@
+Looking for git in: git
+Using git 2.25.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/uidd2020/user/purmonth
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :public_html/FinalProject/ser.js
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/ser.js
+> git cat-file -s 501793a7fbad03259129cbaa01300826a59c239e
+> git show :public_html/FinalProject/src/Login.js
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.js
+> git cat-file -s 16db10fa58b3707f989668b347420ed84fca48d2
+> git show :public_html/FinalProject/src/Login.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.html
+> git cat-file -s 99618663ab1dd34d639290c89f1a02600b7f2c74
+> git show :public_html/FinalProject/src/Login.js
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.js
+> git cat-file -s 16db10fa58b3707f989668b347420ed84fca48d2

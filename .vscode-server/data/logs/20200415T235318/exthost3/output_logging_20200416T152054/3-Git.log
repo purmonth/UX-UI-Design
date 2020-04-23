@@ -1,0 +1,229 @@
+Looking for git in: git
+Using git 2.25.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/uidd2020/user/purmonth
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show :public_html/http/dist/exercise.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/http/dist/exercise.html
+> git status -z -u
+> git cat-file -s f2f311ab171ecc1fb65a41350b4e027c1c23f289
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :public_html/preprocessor/app/index.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/index.pug
+> git cat-file -s 8461b3ade181b7eac48050f8edfd326476f875b6
+> git show :public_html/preprocessor/app/app.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/app.sass
+> git cat-file -s 3f679beb1387a7d1bc3f281701dbfed60ea11ecd
+> git show :public_html/http/dist/exercise.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/http/dist/exercise.html
+> git cat-file -s f2f311ab171ecc1fb65a41350b4e027c1c23f289
+> git show :public_html/preprocessor/app/index.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/index.pug
+> git cat-file -s 8461b3ade181b7eac48050f8edfd326476f875b6
+> git show :public_html/preprocessor/app/app.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/app.sass
+> git cat-file -s 3f679beb1387a7d1bc3f281701dbfed60ea11ecd
+> git show :public_html/preprocessor/babel/typescript.ts
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/babel/typescript.ts
+> git cat-file -s 3388ffb40db959fc6a7ab95561d09b98e9dd8622
+> git show :public_html/preprocessor/parcel/app.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/parcel/app.sass
+> git cat-file -s 329e2fdf9ab0e78298b1d6b8708f2cbde3897136
+> git show :public_html/preprocessor/parcel/index.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/parcel/index.pug
+> git cat-file -s 94a498b8a5c86e437ef5000ce6fc5dbdee5a42b5
+> git show :public_html/preprocessor/parcel/app.js
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/parcel/app.js
+> git cat-file -s 9e537ea45b2306d120a68c2bbdf42dc6e97b9f55
+> git show :public_html/preprocessor/app/index.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/index.pug
+> git cat-file -s 8461b3ade181b7eac48050f8edfd326476f875b6
+> git show :public_html/preprocessor/app/app.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/app.sass
+> git cat-file -s 3f679beb1387a7d1bc3f281701dbfed60ea11ecd
+> git show :public_html/preprocessor/dist/app.css
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/dist/app.css
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :public_html/preprocessor/dist/index.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/dist/index.html
+> git check-ignore -v -z --stdin
+> git show :public_html/preprocessor/app/index.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/index.pug
+> git cat-file -s 8461b3ade181b7eac48050f8edfd326476f875b6
+> git show :public_html/preprocessor/app/app.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/app.sass
+> git cat-file -s 3f679beb1387a7d1bc3f281701dbfed60ea11ecd
+> git show :public_html/preprocessor/app/index.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/index.pug
+> git cat-file -s 8461b3ade181b7eac48050f8edfd326476f875b6
+> git show :public_html/preprocessor/app/app.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/app.sass
+> git cat-file -s 3f679beb1387a7d1bc3f281701dbfed60ea11ecd
+> git show :public_html/preprocessor/app/index.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/index.pug
+> git cat-file -s 8461b3ade181b7eac48050f8edfd326476f875b6
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :public_html/preprocessor/app/app.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/app.sass
+> git cat-file -s 3f679beb1387a7d1bc3f281701dbfed60ea11ecd
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/app.sass

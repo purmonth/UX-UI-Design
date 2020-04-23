@@ -1,0 +1,87 @@
+Looking for git in: git
+Using git 2.25.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/uidd2020/user/purmonth
+> git status -z -u
+> git check-ignore -v -z --stdin
+> git show :public_html/FinalProject/src/Login.js
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.js
+> git cat-file -s 16db10fa58b3707f989668b347420ed84fca48d2
+> git show :public_html/FinalProject/src/Login.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.html
+> git cat-file -s 99618663ab1dd34d639290c89f1a02600b7f2c74
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :public_html/FinalProject/preprocessor/Login.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/Login.pug
+> git show :public_html/FinalProject/src/Login.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.html
+> git cat-file -s 99618663ab1dd34d639290c89f1a02600b7f2c74
+> git show :public_html/FinalProject/preprocessor/Login.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/Login.pug
+> git show :public_html/FinalProject/preprocessor/Login.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/Login.sass
+> git check-ignore -v -z --stdin
+> git show :public_html/FinalProject/src/Login.css
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.css
+> git cat-file -s 4a6bd674d17ca05e640d5e5f021f411ec1c0e50f
+> git show :public_html/FinalProject/preprocessor/Login.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/Login.sass
+> git show :public_html/FinalProject/src/Login.css
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.css
+> git cat-file -s 4a6bd674d17ca05e640d5e5f021f411ec1c0e50f
+> git show :public_html/FinalProject/ser.js
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/ser.js
+> git cat-file -s 501793a7fbad03259129cbaa01300826a59c239e
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :public_html/FinalProject/preprocessor/dist/Login.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/dist/Login.html
+> git show :public_html/FinalProject/ser.js
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/ser.js
+> git cat-file -s 501793a7fbad03259129cbaa01300826a59c239e
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/uidd2020/user/purmonth/public_html/FinalProject/ser.js
+> git show :public_html/FinalProject/preprocessor/Login.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/Login.pug
+> git show :public_html/FinalProject/preprocessor/PreLogin.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/PreLogin.pug
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :public_html/FinalProject/preprocessor/dist/Login.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/dist/Login.html
+> git show :public_html/FinalProject/preprocessor/PreLogin.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/PreLogin.pug
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :public_html/FinalProject/preprocessor/dist/PreLogin.css
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/dist/PreLogin.css
+> git show :public_html/FinalProject/preprocessor/PreLogin.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/PreLogin.sass
+> git check-ignore -v -z --stdin
+> git show :public_html/FinalProject/src/Login.css
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.css
+> git cat-file -s 4a6bd674d17ca05e640d5e5f021f411ec1c0e50f
+> git show :public_html/FinalProject/preprocessor/dist/PreLogin.css
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/dist/PreLogin.css
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :public_html/FinalProject/preprocessor/dist/PreLogin.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/dist/PreLogin.html
+> git show :public_html/FinalProject/preprocessor/PreLogin.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/PreLogin.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/PreLogin.pug
+> git show :public_html/FinalProject/preprocessor/PreLogin.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/PreLogin.pug
+> git cat-file -s 9d132d32387a333bbc0e29152ea7fa3b463a7d7a
+> git show :public_html/FinalProject/preprocessor/PreLogin.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/PreLogin.pug
+> git cat-file -s 9d132d32387a333bbc0e29152ea7fa3b463a7d7a
+> git show :public_html/FinalProject/preprocessor/PreLogin.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/preprocessor/PreLogin.pug
+> git cat-file -s 9d132d32387a333bbc0e29152ea7fa3b463a7d7a
+> git show :public_html/FinalProject/preprocessor/PreLogin.pug

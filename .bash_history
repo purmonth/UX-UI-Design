@@ -189,3 +189,153 @@ cd public_html/
 cd http/
 ./ser.js 
 node ./ser.js
+git pull
+git status
+git add .
+git commit -m "init"
+git push
+git pull
+ls
+cd FinalProject/
+ls
+yarn init -y
+yarn add express jquery
+npm init -y
+npm i express jquery --save
+yarn
+npm i
+vim ser.js
+node ./ser.js 
+node ./ser.js
+git status
+git add .
+git commit -m "Add ser.js"
+git push
+ls
+cd ..
+ls
+cd Web-tutorial/
+ls
+git pull
+ls
+cd public_html/
+cd preprocessor/
+npm init -y
+npm i node-sass --save-dev # for step 2
+npm i jquery --save
+npm i parcel-bundler --save-dev # for step 3
+npm i pug-cli --save-dev # for step 1
+ls
+cd ..
+ls
+cd preprocessor/
+ls
+npm init -y
+npm i node-sass --save-dev
+npm i jquery --save
+npm i parcel-bundler --save-dev
+npm i pug-cli --save-dev
+npm i
+./node_modules/.bin/pug ./app/index.pug -o ./dist/
+./node_modules/.bin/pug ./app/index.pug -o ./dist/ --watch
+./node_modules/.bin/node-sass ./app/app.sass -o dist --watch
+./node_modules/.bin/pug ./app/index.pug -o ./dist/
+./node_modules/.bin/node-sass ./app/app.sass -o dist --watch
+./node_modules/.bin/pug ./app/index.pug -o ./dist/
+./node_modules/.bin/pug ./app/index.pug -o ./dist/ --watch
+./node_modules/.bin/node-sass ./app/app.sass -o dist --watch
+./node_modules/.bin/babel ./babel/typescript.ts --out-dir ./dist/ --extensions ".ts"
+./node_modules/.bin/parcel watch ./parcel/index.pug
+./node_modules/.bin/parcel ./parcel/index.pug --port 5665
+./node_modules/.bin/node-sass ./app/app.sass -o dist --watch
+./node_modules/.bin/node-sass ./app/app.sass -o dist
+./node_modules/.bin/node-sass ./app/app.sass -o dist --watch
+ls
+cd public_html/
+ls
+cd preprocessor/
+./node_modules/.bin/pug ./app/index.pug -o ./dist/ --watch
+cd public_html/preprocessor/
+./node_modules/.bin/babel ./babel/typescript.ts --out-dir ./dist/ --extensions ".ts"
+cd public_html/preprocessor/
+./node_modules/.bin/node-sass ./app/app.sass -o dist --watch
+cd public_html/preprocessor/
+./node_modules/.bin/pug ./app/index.pug -o ./dist/ --watch
+ls
+exit
+git pull
+tmux
+ls
+exit
+exit
+cd preprocessor/
+ls
+npm init -y
+npm i node-sass --save-dev
+npm i jquery --save
+npm i parcel-bundler --save-dev
+npm i pug-cli --save-dev
+ls
+cd ..
+ls
+cd ..
+cd public_html/
+ls
+mv preprocessor FinalProject/
+cd FinalProject/
+ls
+cd preprocessor/
+ls
+npm init -y
+npm i node-sass --save-dev # for step 2
+npm i jquery --save
+npm i parcel-bundler --save-dev # for step 3
+npm i pug-cli --save-dev # for step 1
+ls
+./node_modules/.bin/pug ./Login.pug -o ./dist/
+./node_modules/.bin/node-sass ./Login.sass -o dist --watch
+./node_modules/.bin/node-sass ./Login.sass -o ./dist/
+cd ..
+ls
+node ./ser.js 
+exit
+tmux
+ls
+cd fi
+cd FinalProject/
+ls
+node ./ser.js
+exit
+tmux
+cd FinalProject/
+ls
+./ser.js
+node ./ser.js
+tmux ls
+tmux kill-server
+tmux ls
+exit
+tmux
+ls
+tmux
+ls
+cd FinalProject/
+ls
+cd preprocessor/
+ls
+cd dist/
+ls
+cd ..
+./node_modules/.bin/pug ./PreLogin.pug -o ./dist/
+./node_modules/.bin/node-sass ./PreLogin.sass -o dist
+./node_modules/.bin/node-sass ./PreLogin.sass -o ./dist
+./node_modules/.bin/node-sass ./PreLogin.sass -o dist
+ls
+cd ..
+ls
+cd ..
+ls
+git status
+git add .
+git commit -m "Add preprocessor"
+git push

@@ -1,0 +1,63 @@
+Looking for git in: git
+Using git 2.25.0 from git
+> git rev-parse --show-toplevel
+> git rev-parse --git-dir
+Open repository: /home/uidd2020/user/purmonth
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+> git rev-list --left-right master...refs/remotes/origin/master
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :public_html/preprocessor/babel/typescript.ts
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/babel/typescript.ts
+> git cat-file -s 3388ffb40db959fc6a7ab95561d09b98e9dd8622
+> git show :public_html/preprocessor/babel/es6.js
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/babel/es6.js
+> git cat-file -s 52371c215997677ba6e30a8c7b2a948674345303
+> git check-ignore -v -z --stdin
+> git show :public_html/preprocessor/app/app.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/app.sass
+> git cat-file -s 3f679beb1387a7d1bc3f281701dbfed60ea11ecd
+> git show :public_html/preprocessor/app/index.pug
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/index.pug
+> git cat-file -s 8461b3ade181b7eac48050f8edfd326476f875b6
+> git show :public_html/preprocessor/app/app.sass
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/preprocessor/app/app.sass
+> git cat-file -s 3f679beb1387a7d1bc3f281701dbfed60ea11ecd
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :public_html/FinalProject/src/About.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/About.html
+> git cat-file -s b1affa145105446f49106305c678bc2f18eead08
+> git show :public_html/FinalProject/src/Login.css
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.css
+> git cat-file -s 4a6bd674d17ca05e640d5e5f021f411ec1c0e50f
+> git check-ignore -v -z --stdin
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.css
+> git check-ignore -v -z --stdin
+> git show :public_html/FinalProject/src/test.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/test.html
+> git check-ignore -v -z --stdin
+> git show :public_html/FinalProject/src/Login.css
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.css
+> git cat-file -s 4a6bd674d17ca05e640d5e5f021f411ec1c0e50f
+> git show :public_html/FinalProject/src/test.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/test.html
+> git show :public_html/FinalProject/src/Login.js
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.js
+> git cat-file -s e45d0e324d0042df28be3b55b1c4014c8dea4eaa
+> git show :public_html/FinalProject/src/Login.html
+> git ls-files --stage -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.html
+> git cat-file -s d9ca1940b0bfe0ab4feef66420239f07721c7e6b
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.html
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n41 -- /home/uidd2020/user/purmonth/public_html/FinalProject/src/Login.html
