@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <mata charset="UTF-8"></mata>
+    <mata name="viewport" content="width=100%, initial-scale=1.0"></mata>
+    <title>Log in</title>
+    <link rel="stylesheet" href="new_LogIn.css">
+</head>
+
+<body>
+    <div class="Background" id="logIn">
+        <div class="header" id="header_LogIn">
+            <div class="header_logo" id="hearder_logo_LogIn">Lazebra</div>
+        </div>
+        <div class="container" id="container_LogIn">
+            <div class="container_left">
+                <div class="left_title">還沒有帳號嗎？</div>
+                <div class="left_info">立即註冊加入Lazebra，<br>開始新的線上購物體驗吧！</span><br></div>
+                <div class="button cursor" id="SignUp">Sign up</div>
+            </div>
+        </div>
+        <div class="slider">
+            <div class="slider_close cursor"><a href="HomePage.html"></a></div>            
+            <div class="slider_title">Log in</div>
+            <div class="slider_container">
+                <div class="slider_content">歡迎回來！</div>
+                <div class="slider_FBbutton cursor"></div>
+                <p>或</p>
+                <div class="slider_input">
+                    <form action="#" method="get" id="ajax-form">
+                        <input type="text" id="email" name="email" placeholder="信箱或電話號碼">
+                        <input type="text" id="password" name="password" placeholder="密碼">
+                    </form>
+                </div>
+                <div class="slider_button cursor">Log in</div>
+            </div>
+        </div>
+    </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+        $(".slider_close").click(()=>{
+            window.location.replace="HomePage.html";
+        });
+    })
+</Script>
+</body>
+</html>
+
+        
+
+            

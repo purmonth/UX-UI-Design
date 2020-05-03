@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=100%, initial-scale=1.0">
+    <title>Lazebra</title>
+    <link rel="stylesheet" href="new_HomePage.css">
+</head>
+
+<body>
+    <div class="HomePage">
+        <div class="header">
+            <div class="header_logo">Lazebra</div>
+            <div class="header_button cursor"><a href="LogIn.html"><img src="./component/img/login.svg"/>Sign in</a></div>
+        </div>
+        <div class="container">
+            <div class="container_title" id="ajax-output">Lazebra，你的日常購物小幫手</div>
+            <div class="searchbar">
+                <div class="bar_input"><img src="./component/img/landmark.svg">
+                    <form action=" "><input type="text" name="place" placeholder="Enter delivery address"></form>
+                </div>
+                <div class="bar_button cursor">Search</div>
+            </div>
+        </div>
+        <div class="page1">
+            <div class="page1_icon"><img src="./component/img/circle.svg"></div>
+            <div class="page1_title">Lazebra 起源</div>
+            <p>因應疫情發展，越來越多人配合防疫，減少出門購物消費的習慣，轉而進行線上消費，除了宅配取貨、門市取貨外，我們希望能建構新的線上購物模式，藉由鄰居或附近住戶出門採買時幫忙代購，以搭便車的購物方式，使居家購物模式更加便利</p>
+        </div>
+        <div class="page2">
+            <div class="page2_container">
+                <div class="page2_title">多種取貨方式</div>
+                <div class="page2_list">
+                    <ul>
+                        <li>宅配到家</li>
+                        <li>超商面交</li>
+                        <li>鄰居代收</li>
+                    </ul>
+                </div>
+                <div class="page2_icon">
+                    <img src="component/img/delivery_icon.svg">
+                    <img src="component/img/delivery_icon.svg">
+                    <img src="component/img/delivery_icon.svg">
+                </div>
+            </div>
+        </div>
+        <div class="page3">
+            <div class="page3_title">如何訂購您想要的日常生活用品?</div>
+            <div class="page3_list">
+                <ol>
+                    <li>輸入您的地址</li>
+                    <li>按下搜尋按鈕</li>
+                    <li>查詢是否有代購者訂單</li>
+                    <li>選擇訂購商品</li>
+                    <li>等待代購者確認</li>
+                </ol>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer_title">現在就加入我們!</div>
+            <div class="footer_button"><a href="LogIn.html">Login in</a></div>
+    </div>
+    <button type="button" id="BackToTop" class="cursor"><img src="./component/img/back_to_top.svg">Back to top</button>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+    $(function(){
+        $('#BackToTop').click(function(){
+            $('html, body').animate({scrollTop:0}, 333);
+        });
+        $(window).scroll(function(){
+            if($(this).scrollTop() > 300){
+                $('#BackToTop').fadeIn(222);
+            }else{
+                $('#BackToTop').stop().fadeout(222);
+            }
+        }).scroll();
+    });
+</script>
+
+</html>
