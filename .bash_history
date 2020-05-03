@@ -339,3 +339,53 @@ git status
 git add .
 git commit -m "Add preprocessor"
 git push
+git status
+git add .
+git commit -m "transfer"
+git push
+exit
+git pull
+ls
+cd public_html/
+ls
+mkdir db
+cd db
+ls
+git clone https://github.com/mongo-express/mongo-express.git
+cd mongo-express
+ls
+cd ..
+npm install
+ls
+cp config.default.js config.js
+cd mongo-express/
+ls
+cp config.default.js config.js
+ls
+npm install mysql --save
+vi config.js
+ls
+cp config.default.js config.js
+vim config.js
+exit
+ls
+cd public_html/
+ls
+cd db
+ls
+cd ..
+cd db
+ls
+npm install mysql --save
+exit
+tmux
+exit
+ls
+ls -a
+rm -r .vscode
+rm -r .vscode-server/
+ls
+ls -a
+cd ..
+ls
+exit
