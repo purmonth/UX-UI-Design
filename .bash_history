@@ -1,27 +1,3 @@
-exit
-ls
-cd ..
-ls
-cd purmonth/
-ls
-cd tmp
-ls
-cd ..
-ls -a
-passwd
-ls
-tmux
-exit() exit
-exit
-ls
-git clone https://github.com/mbilab/Web-tutorial.git
-ls
-cd Web-tutorial/
-ls
-cd ..
-ls
-cd ~/public_html
-ln -s ~/Web-tutorial/01_css
 ls
 cd ..
 ls
@@ -389,3 +365,136 @@ ls -a
 cd ..
 ls
 exit
+ls
+git status
+git pull
+git status
+git add .
+git commit -m "Merge"
+git push
+exit
+ls
+exit
+ls
+vim ./page/LoginPage.jsx 
+ls
+cd ..
+ls
+npm start
+vim ~/.tmux.conf 
+exit
+ls
+vim index.js
+exit
+ls
+cd ..
+ls
+cd waynechuang97/
+ls
+cd public_html/
+ls
+cd ncku_uidd/
+ls
+cd FinalProject/
+ls
+cd src
+ls
+wxit
+exit
+ls
+cd FinalProject/
+ls
+cd preprocessor/
+./node_modules/.bin/parcel ./parcel/index.pug --port 5528
+./node_modules/.bin/parcel ./PreLogin.pug --port 5528
+./node_modules/.bin/node-sass ./app/app.sass -o dist --watch
+./node_modules/.bin/node-sass ./PreLogin.sass -o dist --watch
+./node_modules/.bin/parcel ./PreLogin.pug --port 5528
+./node_modules/.bin/pug ./PreLogin.pug -o ./dist/ --watch
+exit
+ls
+cd FinalProject/
+node ./ser.js 
+exit
+exit
+ls
+cd ..
+ls
+npm start
+ls
+vim webpack.config.js 
+ls
+cd src
+ls
+vim index.js
+ls
+cd page
+ls
+cd ..
+ls
+vim index.js 
+vim index.js
+exit
+ls
+cd public_html/
+cd FinalProject/
+npm start
+vi package.json 
+npm start
+ls
+vi package.json 
+ls
+npm start
+ls
+cd src
+vim index.js 
+ls
+cd ..
+npm start
+ls
+cd src
+ls
+vim index.js 
+tmux
+tmux ls
+tx
+tmux ls
+tx
+tmux ls
+tx
+ls
+cd ..
+tmux ls
+tmux attach -t 5
+tmux attach
+git pull
+ls
+cd public_html/
+ls
+cd FinalProject/
+ls
+npm start
+vim /home/uidd2020/user/purmonth/.npm/_logs/2020-05-06T06_38_32_332Z-debug.log
+rm -rf node_modules
+npm install
+npm start
+ls
+cd src
+ls
+vim index.js 
+tmux
+ls
+cd public_html/
+ls
+cd FinalProject/
+ls
+cd dist
+ls
+cd ..
+ls
+cd ..
+ls
+cd FinalProject/
+npm start
+tmux ls
+tx
