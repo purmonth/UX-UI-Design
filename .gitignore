@@ -21,6 +21,8 @@ chrome-user-data
 .idea
 *.iml
 .vscode
+.vim
+.ssh
 *.swp
 *.swo
 
