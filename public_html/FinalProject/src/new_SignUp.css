@@ -60,7 +60,7 @@ html, body, div, text, form{
 
 .right_title{
     color: white;
-    font-size: 5vh;
+    font-size: 3.5vh;
 
     height: 8vh;
     width: 100%;
@@ -87,7 +87,7 @@ html, body, div, text, form{
 }
 .button{
     color: white;
-    font-size: 3vh;
+    font-size: 2.5vh;
 
     height: 5vh;
     width: 30%;
@@ -134,7 +134,7 @@ html, body, div, text, form{
 }
 
 .slider_title{
-    font-size: 3.6vh;
+    font-size: 3vh;
     text-align: center;
     border-bottom: 1.5px solid #5B818E;
 
@@ -148,20 +148,20 @@ html, body, div, text, form{
 }
 
 .slider_content{
-    font-size: 3.6vh;
+    font-size: 3vh;
     text-align: left;
 
     padding: 5vh 6vh 1.5vh;
 }
 
 .slider_input input{
-    font-size: 2.5vh;
+    font-size: 2vh;
     color: #A3BFC0;
     border: 1.5px solid #5B818E;
     border-radius: 1vh;
 
     margin : 2.5vh  auto;
-    height: 6vh;
+    height: 5vh;
     width: 80%;
     display: block;
 }
@@ -179,7 +179,7 @@ html, body, div, text, form{
 
     line-height: 6vh;
     color: white;
-    font-size: 3vh;
+    font-size: 2.5vh;
     background-color: #EA5450;
     text-align: center;
     display: block;
