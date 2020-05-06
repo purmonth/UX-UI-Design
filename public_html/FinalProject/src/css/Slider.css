@@ -1,0 +1,143 @@
+.slider{
+    height: 85vh;
+    width: 60vh;
+    color: rgb(25,89,155);
+    background-color: white;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 10vh;
+    padding: 0 18vh;
+}
+#slider_left{
+    left: 5vh;
+}
+#slider_right{
+    right: 5vh;
+}
+.slider_close{
+    height: 5vh;
+    width: 5vh;
+    position: absolute;
+    top: 2vh;
+    right :2vh;
+    background-image: url(../component/img/LogIn/close.svg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.slider_title{
+    font-size: 3vh;
+    text-align: center;
+    border-bottom: 1.5px solid #5B818E;
+    margin: 0 auto ;
+    padding: 8vh 3vh 3vh 3vh; 
+}
+
+.sider_container{
+    width: 80vh;
+    margin: 0 auto;
+}
+
+#SignUp_slider_content{
+    padding: 5vh 6vh 1.5vh;
+}
+#Login_slider_content{
+    padding: 5vh 5vh 3vh;
+}
+
+.slider_content{
+    font-size: 3vh;
+    text-align: left;
+}
+
+.slider_FBbutton{
+    height: 6vh;
+    width: 100%;
+    background-image: url('../component/img/LogIn/FBbutton.svg');
+    background-size: 50vh auto  ;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+#Login_input input{
+    margin : 5vh  auto;
+}
+#SignUp_input input{
+    margin : 2.5vh  auto;
+}
+
+
+.slider_input input{
+    font-size: 2vh;
+    color: #A3BFC0;
+    border: 1.5px solid #5B818E;
+    border-radius: 1vh;
+    height: 5vh;
+    width: 80%;
+    display: block;
+}
+
+.slider_input ::-webkit-input-placeholder {
+    color: #A3BFC0;
+    font-weight: bold;
+    font-family: Microsoft JhengHei;
+    padding-left: 2vh;
+}
+
+.slider_container p{
+    text-align: center;
+    font-size: 2vh;
+    color: #5B818E;
+    line-height: 2vh;
+    margin:0 auto ;
+    padding-top: 4vh ;
+}
+
+#SignUp_button{
+    margin-top: 4vh;
+}
+
+.slider_button{
+    height: 6vh;
+    width: 80%;
+
+    line-height: 6vh;
+    color: white;
+    font-size: 2.5vh;
+    background-color: #EA5450;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+    border-radius: 1vh;
+}
+
+
+.button{
+    color: white;
+    font-size: 2.5vh;
+
+    height: 5vh;
+    width: 30%;
+    line-height: 5vh;
+    text-align: center;
+    border: solid 0.3vh white;
+    border-radius: 1vh;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+    top: 15vh;
+}
+
+
+.SignPage{
+    min-width: 1024px;
+    background-color: white;
+}

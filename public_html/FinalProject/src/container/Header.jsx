@@ -1,5 +1,5 @@
 import React from "react"
-import "../css/HomePage.css"
+import "../css/Header.css"
 import Img_login from "../component/img/login.svg"
 
 class Header extends React.Component {

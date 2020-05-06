@@ -1,0 +1,55 @@
+
+
+.container{
+    height: 63vh;
+    width: 100%;
+    background: linear-gradient(45deg,rgb(21,82,139),rgb(21,84,144),rgb(208,182,169),rgb(210,171,162));
+    background-size: 400% 400%;
+    animation: AnimationName 15s ease infinite;
+}
+
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+#container_left{
+    left: 0;
+}
+
+
+#container_right{
+    right: 0;
+}
+
+.container_inside{
+    height: 63vh;
+    width: 50%;
+    position: absolute;
+}
+
+.container_title{
+    color: white;
+    font-size: 3.5vh;
+    height: 8vh;
+    width: 100%;
+    line-height: 8vh;
+    text-align: center;
+    position: relative;
+    top: 10vh;
+}
+
+.container_info{
+    color: white;
+    font-size: 3vh;
+    height: 20vh;
+    width: 100%;
+    line-height: 5vh;
+    text-align: left;
+    position: relative;
+    top: 10vh;
+    left: 32%;
+
+}

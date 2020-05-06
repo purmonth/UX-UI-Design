@@ -1,6 +1,8 @@
 import React from "react"
 import Header from '../container/Header.jsx'
 import Footer from '../container/Footer.jsx' 
+import "../css/General.css"
+import "../css/HomePage.css"
 import Img_landmark from "../component/img/landmark.svg"
 import Img_circle from "../component/img/circle.svg"
 import Img_delivery_icon from "../component/img/delivery_icon.svg"
@@ -38,7 +40,7 @@ class HomePage extends React.Component{
         <div id="HomePage" >
             <Header />
             <div className="container">
-                <div className="container_title" id="ajax-output">Lazebra，你的日常購物小幫手</div>
+                <div id="Home_container_title">Lazebra，你的日常購物小幫手</div>
                 <Searchbar />
             </div>
             <div className="page1">

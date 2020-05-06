@@ -1,97 +1,23 @@
-html,
-body,
-div,
-text,
-form {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  font-family: Microsoft JhengHei;
-  font-weight: bold;
-  overflow-x: hidden;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.cursor {
-  cursor: pointer;
-}
 
 .Background {
   min-width: 1024px;
   background-color: white;
 }
 
-.header {
-  height: 15vh;
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 5vh;
-}
 
-.header_logo {
-  font-family: "Berlin Sans FB Demi Bold";
-  font-size: 5vh;
-  color: #08325c;
-
-  float: left;
-
-  height: 15vh;
-  line-height: 15vh;
-  margin-left: 5vh;
-}
-
-.header_button {
-  font-size: 2vh;
-  color: #ea5450;
-  line-height: 15vh;
-
-  height: 15vh;
-  width: 15vh;
-
-  display: inline-block;
-  float: right;
-  margin-right: 5vh;
-}
-
-.header_button img {
-  height: 5vh;
-  width: auto;
-  float: left;
-  margin-top: 5vh;
-}
-
-.container {
-  height: 63vh;
-  width: 100%;
-
-  background-image: url("../component/img/bg_search.svg");
-  background-repeat: repeat-x;
-  background-size: 100% auto;
-  background-position: center;
-}
-
-.container_title {
+#Home_container_title {
   color: white;
   font-size: 5vh;
   text-align: center;
-
   margin-top: 20vh;
 }
 
 .searchbar {
   height: 12vh;
   width: 48%;
-
   display: block;
   margin-left: auto;
   margin-right: auto;
-
   position: relative;
   top: 5vh;
 }
@@ -99,7 +25,6 @@ a {
 .bar_input {
   height: 12vh;
   width: 79%;
-
   float: left;
   line-height: 12vh;
   background-color: white;
@@ -108,7 +33,6 @@ a {
 .bar_input img {
   height: 100%;
   width: auto;
-
   float: left;
   padding-left: 4vh;
 }
@@ -116,7 +40,6 @@ a {
 .bar_input input {
   height: 6vh;
   width: 90%;
-
   font-size: 3vh;
   color: #a3bfc0;
   font-weight: bold;
@@ -132,14 +55,12 @@ a {
 .bar_button {
   height: 12vh;
   width: 20%;
-
   font-size: 3vh;
   color: white;
   line-height: 12vh;
   font-weight: bold;
   text-align: center;
   background-color: #ea5450;
-
   float: right;
 }
 
@@ -169,7 +90,6 @@ a {
 .page1 p {
   height: 15vh;
   width: 80%;
-
   margin: 4vh auto;
   font-size: 3vh;
   color: #18599b;
@@ -238,43 +158,6 @@ a {
   font-size: 3.3vh;
   padding-top: 2vh;
   padding-left: 8vh;
-}
-
-.footer {
-  height: 30vh;
-  width: 100%;
-
-  color: white;
-  background-image: url("../component/img/bg_footer.svg");
-  background-repeat: no-repeat;
-  background-size: 100% auto;
-  background-position: center;
-}
-
-.footer_title {
-  font-size: 5vh;
-
-  height: 10vh;
-  width: 100%;
-  line-height: 10vh;
-  text-align: center;
-  margin-top: 8vh;
-}
-
-.footer_button {
-  height: 5vh;
-  width: 20%;
-
-  background-color: #ea5450;
-  font-weight: bold;
-  font-size: 2.5vh;
-  text-align: center;
-  line-height: 5vh;
-
-  margin-top: 2vh;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #BackToTop {

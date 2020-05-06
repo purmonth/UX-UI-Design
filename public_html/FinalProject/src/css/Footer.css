@@ -1,0 +1,48 @@
+.footer {
+  height: 30vh;
+  width: 100%;
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgb(21, 82, 139),
+    rgb(21, 84, 144),
+    rgb(208, 182, 169),
+    rgb(210, 171, 162)
+  );
+  background-size: 400% 400%;
+  animation: AnimationName 7.5s ease infinite;
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.footer_title {
+  font-size: 5vh;
+  height: 10vh;
+  width: 100%;
+  line-height: 10vh;
+  text-align: center;
+  margin-top: 8vh;
+}
+
+.footer_button {
+  height: 5vh;
+  width: 20%;
+  background-color: #ea5450;
+  font-weight: bold;
+  font-size: 2.5vh;
+  text-align: center;
+  line-height: 5vh;
+  margin-top: 2vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

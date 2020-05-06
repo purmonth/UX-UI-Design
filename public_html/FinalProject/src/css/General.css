@@ -1,0 +1,24 @@
+html,
+body,
+div,
+text,
+form {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  font-family: Microsoft JhengHei;
+  font-weight: bold;
+  overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+   
+
+.cursor{
+    cursor: pointer;
+}
